@@ -1,0 +1,100 @@
+
+	
+#r_eva .Header{
+	width:100%;
+	height:166px;
+	background-color:black;
+}
+#r_eva .main{
+	width:978px;
+	margin:0 auto;
+	margin-top:13px;
+	background:url('../images/#r_eva mid.gif') 0 0 repeat-y;
+	
+}
+#r_eva .top{
+	height:27px;
+	/*background-color:black;*/
+}
+#r_eva .content .eva-1{
+	height:357px;
+	/*line-height:75px;*/
+	background-color:#f7fafb;
+	/*overflow:hidden;*/
+	border-bottom:1px solid #e6e6e6;
+}
+#r_eva .eva-1 .title a{
+	float:left;
+	margin-left:30px;
+	margin-top:26px;
+}
+#r_eva .eva-1 h4{
+	float:left;
+	height:32px;
+	line-height:32px;
+	margin-left:17px;
+	margin-top:26px;
+	font-size:16px;
+	color:#fd8e4d;
+}
+#r_eva .eva-1 .detail{
+	margin-left:91px;
+	margin-right:33px;
+} 
+#r_eva .eva-1 .detail .title-1{
+	color:#fd8e4d;
+	font-size:14px;
+	/*border:1px solid red;*/
+	margin-top:40px;
+}
+#r_eva .eva-1 .detail .title-2{
+	color:#fd8e4d;
+	font-size:14px;
+}
+#r_eva .eva-1 .title{
+	overflow:hidden;
+	height:75px;
+}
+#r_eva .eva-1 .corporate{
+	font-size:13px;
+	text-indent:2em;
+	letter-spacing:2px;
+}
+#r_eva .eva-1 .project{
+	font-size:13px;
+	letter-spacing:2px;
+	overflow:hidden;
+	margin-top:5px;
+}
+#r_eva .project dt{
+	float:left;
+	width:85px;
+}
+#r_eva .project dd{
+	float:right;
+	margin-left:10px;
+	width:745px;
+}
+#r_eva .bottom{
+	height:140px;
+	/*background-color:black;*/
+	background-color:#f7fafb;
+}
+#r_eva .footer{
+	height:302px;
+	width:100%;
+	background-color:black;
+	margin-top:37px;
+}
+#r_eva .content{
+	width:976px;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+}
+#r_eva .bottom1{
+	width:978px;
+	height:3px;
+	margin:0 auto;
+	background-color:#f7fafb;
+}
+

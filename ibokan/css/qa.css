@@ -1,0 +1,89 @@
+#qa .qa-Whole{
+	width:978px;
+	margin:0 auto;
+}
+#qa .qa-clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+#qa .qa-All{
+	padding:3px;
+	background:#f7fafb;
+}
+#qa .qa-allOne{
+	width:922px;
+	height:35px;
+	display:block;
+	overflow:hidden;
+	margin:19px auto 0;
+	text-decoration:none;
+}
+#qa .qa-allOne:hover .qa-oneScript{
+	color:#f5965f;
+}
+#qa .qa-allOne:hover .qa-oneLeft{
+	background:url(../images/qa_10_2.gif) 0 0 no-repeat;
+}
+#qa .qa-allOne:hover .qa-oneCentre{
+	background:url(../images/qa_10_2.gif) 0 -35px repeat-x;
+}
+#qa .qa-allOne:hover .qa-oneRight{
+	background:url(../images/qa_10_2.gif) right -70px no-repeat;
+	height:35px;
+}
+#qa .qa-allCen{
+	display:none;
+}
+#qa .qa-allOne:hover{
+	height:229px;
+}
+#qa .qa-allOne:hover .qa-allCen{
+	display:block;
+	margin:0 auto;
+	width:924px;
+	height:194px;
+}
+#qa .qa-allOne .qa-oneDigid{
+	width:38px;
+	float:left; 
+	margin:0;
+	text-align:center;
+}
+#qa .qa-allOne span{
+	float:left;
+	font-size:16px;
+	margin-left:14px;
+	line-height:35px;
+	color:#646464;
+}
+#qa .qa-oneLeft{
+	background:url(../images/qa_10_1.gif) 0 0 no-repeat;
+}
+#qa .qa-oneCentre{
+	background:url(../images/qa_10_1.gif) 0 -35px repeat-x;
+}
+#qa .qa-oneRight{
+	background:url(../images/qa_10_1.gif) right -70px no-repeat;
+	height:35px;
+}
+#qa .qa-cenLeft{
+	background:url(../images/qa_10_3.png) 0 0 no-repeat;
+}
+#qa .qa-cenCentre{
+	background:url(../images/qa_10_3.png) 0 -194px repeat-x;
+}
+#qa .qa-cenRight{
+	background:url(../images/qa_10_3.png) right -388px no-repeat;
+	height:194px;
+}
+#qa p{
+	font-size:14px;
+	color:#646464;
+	width:867px;
+	line-height:30px;
+	height:150px;
+	margin:0 auto;
+	padding-top:32px;
+	text-indent:27px;
+}

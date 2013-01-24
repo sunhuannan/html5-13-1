@@ -1,0 +1,42 @@
+#te_ia .te_ia-content{
+	width:980px;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+#te_ia .te_ia-block1{
+	margin-top:5px;
+}
+#te_ia .te_ia-b1-word1{
+	width:250px;
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#fe7d32;
+	margin:0 auto;
+	font-weight:bold;
+	margin-top:20px;
+}
+#te_ia .te_ia-b1-word2{
+	width:260px;
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#fe7d32;
+	text-indent:20px;
+	margin:10px;
+}
+#te_ia .te_ia-block1 .te_ia-b1-word2s{
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#535351;
+	line-height:25px;
+	text-indent:40px;
+	width:900px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#te_ia .te_ia-b1-img{
+	width:477px;
+	height:320px;
+	margin:0 auto;
+	padding-top:20px;
+}

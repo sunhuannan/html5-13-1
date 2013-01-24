@@ -1,0 +1,125 @@
+<div class="page-bot-bg">
+		<div class="page-bot-bg-top1">
+			<div class="page-bot-bg-top2">
+				<div class="page-bot-bg-top3">
+				</div>
+			</div>
+		</div>
+		<div class="page-bot-center">
+			<div class="page-bot-link">
+				<img src="images/page-bottom/page-bot-link.gif" />
+				<span>友情链接</span>
+				<div class="cb"></div>
+				<table cellpadding=0 cellspacing=0>
+					<tr>
+						<td>
+							<a href="#">搜狐</a>
+						</td>
+						<td>
+							<a href="#">腾讯</a>
+						</td>
+						<td>
+							<a href="#">WEIPHONE</a>
+						</td>
+						<td>
+							<a href="#">搜狐</a>
+						</td>
+						<td>
+							<a href="#">腾讯网</a>
+						</td>
+						<td>
+							<a href="#">WEIPHONE</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">动画培训</a>
+						</td>
+						<td>
+							<a href="#">网易教育</a>
+						</td>
+						<td>
+							<a href="#">手机软件</a>
+						</td>
+						<td>
+							<a href="#">动画培训</a>
+						</td>
+						<td>
+							<a href="#">网易教育</a>
+						</td>
+						<td>
+							<a href="#">手机软件</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">动画培训</a>
+						</td>
+						<td>
+							<a href="#">网易教育</a>
+						</td>
+						<td>
+							<a href="#">手机软件</a>
+						</td>
+						<td>
+							<a href="#">动画培训</a>
+						</td>
+						<td>
+							<a href="#">网易教育</a>
+						</td>
+						<td>
+							<a href="#">手机软件</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="page-bot-apply">
+				<img src="images/page-bottom/page-bot-apply.gif" />
+				<span>在线报名</span>
+				<div class="cb"></div>
+				
+				<form method="" action="">
+					<table cellpadding=0 cellspacing=0>
+						<tr>
+							<td class="page-bot-apply-name">姓名</td>
+							<td class="page-bot-apply-text">
+								<input type="text" name="" value="" />
+							</td>							
+						</tr>
+						<tr>
+							<td class="page-bot-apply-name">QQ</td>
+							<td class="page-bot-apply-text">
+								<input type="text" name="" value="" />
+							</td>							
+						</tr>
+						<tr>
+							<td class="page-bot-apply-name">电话</td>
+							<td class="page-bot-apply-text">
+								<input type="text" name="" value="" />
+							</td>							
+						</tr>
+					</table>
+				</form>
+				<div class="page-bot-apply-a">
+					<a href="#">申请资料</a>
+					<a href="#">报名</a>
+				</div>
+			</div>			
+		</div>	
+		<div class="page-bot-go">
+			<a href="#"><img src="images/page-bottom/page-bot-go.gif" /><a>
+		</div>
+		<div class="page-bot-add">
+			<div>版权所有 北京博看文思科技有限责任公司</div>
+			<div>学院地址：北京石景山区石景山路42号博看文思（石景山区总工会大楼2层）</div>
+		</div>
+		<div class="page-bot-inter">
+			<a href="index.html">首页</a>
+			<span>|</span>
+			<a href="sign.html">在线报名</a>
+			<span>|</span>
+			<a href="contant.html">联系我们</a>
+
+
+		</div>
+	</div>

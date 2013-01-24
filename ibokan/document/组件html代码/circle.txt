@@ -1,0 +1,16 @@
+圆角组件：
+Code:
+
+<div class="circle">						
+	<div class="circle-tm">					
+		<div class="circle-tl">				
+			<div class="circle-tr"></div>	
+		</div>
+	</div>
+	<div class="circle-con">这里放置内容</div>			
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>

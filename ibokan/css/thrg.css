@@ -1,0 +1,165 @@
+#thrg .content{
+	width:994px;
+	margin:0 auto;
+	height:760px;
+	overflow:hidden;
+}
+#thrg .course,#thrg .student,#thrg .teacher,#thrg .project,#thrg .answer{
+	margin:8px;
+	_display:inline;
+}
+#thrg .course .circle-con,#thrg .student .circle-con,#thrg .teacher .circle-con,#thrg .project .circle-con,#thrg .answer .circle-con{
+	background:white;
+}
+#thrg .course{
+	width:702px;
+	height:430px;
+	float:left;
+	margin-top:0px;
+}
+#thrg .student{
+	width:260px;
+	height:200px;
+	float:right;
+	margin-top:0px;
+}
+#thrg .teacher{
+	width:260px;
+	height:212px;
+	float:right;
+}
+#thrg .project{
+	width:702px;
+	height:292px;
+	float:left;
+}
+#thrg .answer{
+	width:260px;
+	height:292px;
+	float:right;
+}
+#thrg .course .circle-con{
+	border:0 none;
+	background:none;
+}
+#thrg .course .circle-con .ios{
+	width:228px;
+	float:left;
+}
+#thrg .course .circle-con .main-con{
+	width:226px;
+	border-left:1px solid #E3E3E3;
+	border-right:1px solid #E3E3E3;
+}
+#thrg .course .circle-con .course-topic{
+	height:81px;
+	width:100%;
+	background:url(../images/thrg-course-bg.gif) 0 0 repeat-x;
+}
+#thrg .course .circle-con .course-topic dt{
+	float:left;
+	width:75px;
+	text-align:center;
+	padding-top:6px;
+}
+#thrg .course .circle-con  a{
+	color:black;
+	text-decoration:none;
+}
+#thrg .course .circle-con .course-topic dd{
+	font-size:18px;
+	height:25px;
+	line-height:25px;
+}
+#thrg .course .circle-con .course-topic .name{
+	padding-top:15px;
+}
+#thrg .course .circle-con .course-con{
+	height:186px;
+	width:100%;
+}
+#thrg .course .circle-con .course-con p{
+	padding:20px 15px;
+	font-size:14px;
+}
+#thrg .course .circle-con .course-con .more{
+	font-size:12px;
+	color:#ac1f1f;
+}
+#thrg .course .circle-con .course-rel-topic{
+	height:29px;
+	width:100%;
+	border-top:1px solid #E3E3E3;
+	border-bottom:1px solid #E3E3E3;
+}
+#thrg .course .circle-con .course-rel-topic h3{
+	font-size:14px;
+	color:#fe7d32;
+	padding-left:15px;
+}
+#thrg .course .circle-con .course-rel-con{
+	height:96px;
+	width:100%;
+}
+#thrg .course .circle-con .course-rel-con ul{
+	padding-top:5px;
+	padding-left:15px;
+}
+#thrg .course .circle-con .course-rel-con li{
+	font-size:14px;
+	height:26px;
+	line-height:26px;
+}
+#thrg .course .circle-con .html5{
+	width:228px;
+	margin:0 9px;
+	_display:inline;
+	float:left;
+}
+#thrg .course .circle-con .android{
+	width:228px;
+	float:left;
+}
+#thrg .project .img-con{
+	width:650px;
+	float:left;
+	height:242px;
+	padding-top:18px;
+}
+#thrg .project .circle-con  .btn-left{
+	width:27px;
+	float:left;
+	margin-top:100px;
+}
+#thrg .project .circle-con  .btn-right{
+	width:27px;
+	float:right;
+	margin-top:-160px;
+}
+#thrg .project .circle-con{
+	background:white;
+	height:260px;
+}
+#thrg .project .circle-con .img-con a{
+	float:left;
+	width:80px;
+	height:121px;
+	text-align:center;
+	_display:inline;
+	text-decoration:none;
+	color:black;
+	margin-right:33px;
+	_display:inline;
+}
+#thrg .project .circle-con .img-con .last{
+	margin:0;
+}
+#thrg .student .pic{
+	padding-top:12px;
+}
+#thrg .teacher .ti_rc .middle{
+	margin-top:20px;
+}
+#thrg .answer .tqa_rc .circle-con{
+	padding-top:16px;
+}

@@ -1,0 +1,39 @@
+#c_da .c_da-content{
+	width:980px;
+	margin:0 auto;
+	padding-bottom:15px;
+}
+#c_da .c_da-block1{
+	margin-top:5px;
+}
+#c_da .c_da-b1-word1{
+	width:350px;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#fe7d32;
+	margin:0 auto;
+}
+#c_da .c_da-b1-word2{
+	width:260px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#808080;
+	margin:0 auto;
+}
+#c_da .c_da-block1 p{
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#535351;
+	line-height:25px;
+	text-indent:40px;
+	width:900px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#c_da .c_da-b1-img{
+	width:900px;
+	height:653px;
+	margin:0 auto;
+}
+

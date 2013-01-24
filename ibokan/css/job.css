@@ -1,0 +1,213 @@
+#job .job-kuang{
+	width:978px;
+	margin:0 auto;
+	margin-bottom:31px;
+	
+}
+#job .circle-tm,#job .circle-con,#job .circle-bm{
+	background-color:#fff;
+}
+#job .job-right-show .titleBar-icon,#job .job-right-class .titleBar-icon{
+	 display:none;
+}
+#job .job-left{
+	width:702px;
+	float:left;	
+}
+#job .job-left-intern{
+	float:left;
+}
+#job .job-intern-left{
+	position:absolute;
+	top:52px;
+}
+#job .job-intern-right{
+	position:absolute;
+	top:52px;
+	left:675px;
+
+}
+#job .job-left-intern .circle{
+	width:702px;
+}
+#job .job-left-intern .circle-con{
+	height:175px;
+	position:relative;
+}
+.job-left-intern .circle-con li{
+	width:131px;
+	float:left;
+	margin-left:7px;
+	display:inline;
+}
+.job-left-intern .circle-con ul{
+	padding-top:10px;
+}
+.job-left-intern .circle-con li a div{
+	color:#858585;
+	text-align:center;
+}
+/*招聘活动*/
+#job .job-left-invite{
+	margin-top:15px;
+}
+#job .job-left-invite{
+	float:left;
+}
+#job .job-left-invite .circle{
+	width:343px;
+}
+#job .job-left-invite img{
+	margin-top:13px;
+	margin-left:15px;
+}
+#job .job-left-invite ul{
+	margin-left:15px;
+}
+#job .job-left-invite li{
+	width:301px;
+	height:36px;
+	overflow:hidden;
+	font-size:14px;
+	line-height:36px;
+	background:url(../images/job/libj.gif) 0 bottom repeat-x;
+	
+}
+#job .job-left-invite li a{
+	color:#6e6e6e;
+}
+#job .job-left-invite li a:hover{
+	text-decoration:none;
+	color:#ff7b33;
+}
+/*招聘信息*/
+#job .job-left-news{
+	width:343px;
+	float:left;
+	margin-left:16px;
+	margin-top:15px;
+	display:inline;
+}
+#job .job-left-news ul{
+	margin-left:18px;
+	padding-top:1px;
+}
+#job .job-left-news li{	
+	overflow:hidden;
+	width:307px;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	background:url(../images/job/libj.gif) 0 bottom repeat-x;
+}
+#job .job-left-news li a{
+	color:#6e6e6e;
+}
+#job .job-left-news li a:hover{
+	text-decoration:none;
+	color:#ff7b33;
+}
+#job .job-left-news .job-ul-li-te,#job .job-left-invite .job-ul-li-te{
+	background:none;
+}
+/*就业感言*/
+#job .job-left-musings{
+	float:left;
+	margin-top:15px;
+}
+#job .job-left-musings dl{
+	overflow:hidden;
+	padding-top:8px;
+	background:url(../images/teacher/teacherbj.gif) 0 bottom repeat-x;
+}
+#job .job-left-musings dt{
+	float:left;
+	margin-left:17px;
+}
+#job .job-left-major{
+	height:57px;
+	overflow:hidden;
+	line-height:20px;
+}
+#job .job-left-name{
+	font-size:14px;
+}
+#job .job-left-musings .job-left-dl-te{
+	background:none;
+}
+#job .job-left-musings dd{
+	color:#6e6e6e;
+	width:507px;
+	float:left;
+	margin-left:18px;
+	display:inline;
+}
+/*右边框*/
+#job .job-right{
+	float:right;
+}
+/*在线课程*/
+#job .job-right-class .circle{
+	width:260px;
+}
+#job .carimg{
+	height:171px;
+	text-align:center;
+	padding-top:14px;
+}
+#job .coursedetail li{
+	width:230px;
+	margin:0 auto;
+}
+#job .coursedetail li {
+	font-size:14px;
+	color:#6e6e6e;
+}
+#job .coursedetail li p{
+	font-size:12px;
+}
+#job .coursedetail .course1{
+	height:76px;
+	background:url('../images/job/libj.gif') 0 bottom repeat-x;
+}
+#job .coursedetail .course2{
+	height:35px;
+	background:url('../images/job/libj.gif') 0 bottom repeat-x;
+}
+#job .coursedetail .course3{
+	height:35px;
+}
+#job .job-right-show .circle{
+	width:260px;
+	margin-top:15px;
+}
+/*项目展示*/
+
+#job .job-right-show .project1{
+	height:114px;
+	border-bottom:1px solid #e5e5e5;
+	overflow:hidden;
+}
+#job .job-right-show .project1 dt{
+	width:117px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+}
+#job .job-right-show .project1 dd{
+	width:140px;
+	float:left;
+	padding-top:14px;
+	font-size:11px;
+}
+#job .job-right-show #border-none{
+	border-bottom:1px solid white;
+}
+#job .advantage li{
+	height:35px;
+	line-height:35px;
+	width:237px;
+	margin-left:10px;
+	padding-left:40px;
+	
+}

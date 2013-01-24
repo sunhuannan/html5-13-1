@@ -1,0 +1,6 @@
+标题栏组件：
+Code:
+<div class="arcNav clearfix">
+	<a href="#" class="arcNav-l"><span>新浪来我院招聘ios开发工程师</span></a>
+	<a href="#" class="arcNav-r"><span>新浪来我院招聘ios开发工程师</span></a>
+</div>

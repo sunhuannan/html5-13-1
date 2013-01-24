@@ -1,0 +1,94 @@
+/*头部通用*/
+#r_sa .grey{
+	background:url("../images/Grey-top.gif") 0 0 repeat-x;
+	height:58px;
+	width:1200px;
+	margin:0 auto;
+}
+#r_sa .main-top{
+	width:980px;
+	height:27px;
+	background-color:#e3e3e3;
+	margin:13px auto 0px;
+}
+/*内容*/
+#r_sa .circle{
+	width:980px;
+	margin:0 auto;
+	margin-top:6px;
+	margin-bottom:28px;
+}
+#r_sa .circle p{
+	font-size:13px;
+	text-indent:24px;
+	color:#535351;
+}
+#r_sa .devSup{
+	width:914px;
+	margin:0 auto;
+	padding-top:16px;
+}
+#r_sa .devSup h3{
+	font-size:16px;
+	color:#fc9c64;
+}
+/*全球技术*/
+#r_sa h4{
+	font-size:14px;
+	color:#fc9c64;
+}
+#r_sa .technology{
+	width:914px;
+	margin:0 auto;
+	margin-top:46px;
+}
+#r_sa .technology h4{
+	background:url("../images/r_sa-quanqiu.gif") 0 4px no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+	padding-left:20px;
+}
+/*团队*/
+#r_sa .team{
+	width:914px;
+	margin:0 auto;
+	margin-top:46px;
+}
+#r_sa .team h4{
+	background:url("../images/r_sa-tuandui.gif") 0 4px no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+	padding-left:20px;
+}
+/*经验*/
+#r_sa .exp{
+	width:914px;
+	margin:0 auto;
+	margin-top:46px;
+}
+#r_sa .exp h4{
+	background:url("../images/r_sa-kuaguo.gif") 0 4px no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+	padding-left:20px;
+}
+/*合作*/
+#r_sa .cooperate{
+	width:914px;
+	margin:0 auto;
+	margin-top:46px;
+}
+#r_sa .cooperate h4{
+	background:url("../images/r_sa-hezuo.gif") 0 4px no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+	padding-left:20px;
+}
+/*文章导航*/
+#r_sa .arcNav{
+	margin-top:58px;	
+}

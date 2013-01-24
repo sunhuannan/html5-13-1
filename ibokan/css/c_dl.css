@@ -1,0 +1,95 @@
+/*头部与布局*/
+#c_dl .middle{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+}
+#c_dl .main-top{
+	float:left;
+	width:702px;
+	height:27px;
+}
+#c_dl .circle{
+	float:left;
+	width:702px;
+	margin-top:6px;
+}
+#c_dl .midRig{
+	float:right;
+	width:260px;
+	height:428px;
+	border:1px solid #e3e3e3;
+}
+#c_dl .midRig-bot{
+	float:right;
+	width:260px;
+	height:428px;
+	border:1px solid #e3e3e3;
+	margin-top:15px;
+}
+/*左侧列表*/
+#c_dl .midLef-one{
+	width:700px;
+	height:174px;
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:10px;
+	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
+}
+#c_dl .midLef-one.special{
+	padding-top:20px;
+}
+#c_dl .midLef-one.exc{
+	background:none;
+}
+#c_dl .circle-con a{
+	float:left;
+	line-height:19px;
+}
+#c_dl .circle-con img{
+	margin-left:20px;
+}
+#c_dl .circle-con h3{
+	float:left;
+	font-size:14px;
+	color:#fe975b;
+	padding-left:12px;
+	padding-top:3px;
+	width:320px;
+}
+#c_dl .circle-con span{
+	float:left;
+	margin-left:12px;
+	font-size:12px;
+	line-height:19px;
+	color:#a2a2a2;
+}
+#c_dl .circle-con p{
+	float:left;
+	width:340px;
+	margin-left:12px;
+	font-size:12px;
+	line-height:19px;
+	color:#a2a2a2;
+}
+#c_dl .more{
+	margin-left:12px;
+	color:#a00000;
+	text-decoration:underline;
+	font-size:10px;
+}
+#c_dl .pnPage span{
+	float:right;
+	margin-left:0px;
+}
+/*左侧列表无背景设置*/
+#c_dl .middle .circle-tm{
+	background-color:#fff;
+}
+#c_dl .middle .circle-con{
+	background-color:#fff;
+}
+#c_dl .middle .circle-bm{
+	background-color:#fff;
+}

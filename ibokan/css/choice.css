@@ -1,0 +1,235 @@
+#choice .titleBar h2{
+	width:50%;
+}
+#choice .titleBar h2 strong{
+	font-size:14px;
+	color:#4d4c4c;
+}
+#choice .choice-sR .titleBar-icon,.choice-xRs .titleBar-icon,.choice-xRx .titleBar-icon{ 
+	display: none;
+}
+#choice .choice-whoie{
+	width:978px;
+	margin:0 auto;
+}
+#choice .choice-s{
+	width:978px;
+	overflow:hidden;
+}
+#choice .choice-sLs .circle-con{
+	height:150px;
+}
+#choice .choice-x .choice-xLs .circle-con a img{
+	float:left;
+}
+#choice .choice-sLs{
+	width:702px;
+	height:186px;
+	float:left;
+}
+#choice .circle-con{
+	overflow:hidden;
+	background:none;
+}
+#choice .choice-sLs .circle-con p{
+	line-height:26px;
+	font-size:13px;
+	height:104px;
+	color:#8d8d8d;
+	width:528px;
+	float:left;
+	padding-top:10px;
+	text-indent:29px;
+	margin-left:15px;
+	word-spacing:1px;
+	overflow:hidden;
+	_display:inline;
+}
+#choice .choice-sLs .circle-con span{
+	font-size:12px;
+	color:#b84040;
+	float:left;
+	margin-left:13px;overflow:hidden;
+	text-decoration:underline;
+	_display:inline;
+}
+#choice .choice-sLs .circle-con a{
+	float:right;
+	margin:14px 17px 0 0;overflow:hidden;
+	_display:inline;
+}
+#choice .choice-sR{
+	float:right;
+	width:260px;border:1px solid red;height:429px;
+}
+#choice .choice-s .choice-sLx .circle-con{
+	height:195px;
+}
+#choice .choice-sLx{
+	width:702px;
+	margin-top:15px;
+	float:left;
+	height:228px;
+}
+#choice .choice-sLx .circle-con .circle-conT{
+	float:left;
+	margin:13px 0 13px 14px;
+	_display:inline;
+}
+#choice .choice-sLx .circle-con ol{
+	width:336px;
+	height:175px;
+	font-size:13px;
+	line-height:35px;
+	float:right;
+	margin:11px 19px 0 0;
+	_display:inline;
+}
+#choice .choice-sLx .circle-con ol li{
+	background:url(../images/dian.gif) 0 0 repeat-x;
+}
+#choice .choice-sLx .circle-con ol li a{
+	color:#838383;
+}
+#choice .choice-sLx .circle-con ol li:hover a{
+	color:#ff6511;
+	text-decoration:none;
+}
+#choice .choice-x{
+	width:978px;
+	margin:15px 0 20px 0;
+	overflow:hidden;
+}
+#choice .choice-x .choice-xLs .circle-con{
+	height:392px;
+}
+#choice .circle-conTls{
+	height:333px;
+	float:left;
+	margin:16px 0 3px 17px;
+}
+#choice .choice-xLs{
+	width:702px;
+	float:left;overflow:hidden;
+	_display:inline;
+	height:429px;
+}
+#choice .circle-conTrs{
+	float:right;
+	height:106px;
+	margin:16px 17px 0 0;
+	_display:inline;
+}
+#choice .circle-conTrc{
+	float:right;
+	height:106px;
+	margin:9px 17px 0 0;
+	_display:inline;
+}
+#choice .circle-conTrx{
+	float:right;
+	
+	margin:9px 17px 0 0;
+	_display:inline;
+}
+#choice .pnPageClearfix{
+	float:right;
+	margin-top:10px;
+	overflow:hidden;
+	margin-right:10px;
+	_zoom:1;
+}
+#choice .circle-conTlx{
+	float:left;
+	overflow:hidden;
+	height:16px;
+	line-height:16px;
+	color:#6e6e6e;
+	font-size:14px;
+	margin:10px 0 8px 16px;
+	text-decoration:none;
+	_display:inline;
+}
+#choice .choice-xLs .pnPageClearfix span{
+	color:#8d8d8d;
+	text-decoration:none;
+}
+#choice .circle-conxx{
+	width:233px;
+	float:left;
+	background:url(../images/dians.gif) 232px 0 repeat-y;
+}
+#choice .choice-xLx .circle-conxx h5{
+	height:50px;
+	width:206px;
+	font-size:14px;
+	color:#616161;
+	line-height:25px;
+	margin:0 auto;
+}
+#choice .choice-xLx .circle-conxx p{
+	width:206px;
+	font-size:12px;
+	height:96px;
+	line-height:24px;
+	overflow:hidden;
+}
+#choice .choice-xLx .circle-conxx,.circle-conxc,.circle-conxl span{
+	height:12px;
+	line-height:12px;
+}
+#choice .circle-conxc{
+	width:233px;
+	height:179px;
+	float:left;
+	background:url(../images/dians.gif) 232px 0 repeat-y;
+}
+#choice .choice-xLx .circle-conxc h5{
+	height:50px;
+	width:206px;
+	font-size:14px;
+	color:#616161;
+	line-height:25px;
+	margin:0 auto;
+}
+#choice .choice-xLx .circle-conxc p{
+	width:206px;
+	font-size:12px;
+	height:96px;
+	line-height:24px;
+	overflow:hidden;
+}
+#choice .choice-xLx .circle-conxl{
+	width:233px;
+	height:179px;
+	float:left;
+}
+#choice .choice-xLx .circle-conxl h5{
+	height:50px;
+	width:206px;
+	font-size:14px;
+	color:#616161;
+	line-height:25px;
+	margin:0 auto;
+}
+#choice .choice-xLx .circle-conxl p{
+	width:206px;
+	font-size:12px;
+	height:96px;
+	line-height:24px;
+	overflow:hidden;
+}
+#choice .choice-xRs{
+	float:right;
+	width:260px;border:1px solid red;height:429px;
+}
+#choice .choice-xLx{
+	width:702px;
+	margin-top:15px;
+	float:left;height:212px;
+}
+#choice .choice-xRx{
+	width:260px;
+	margin-top:15px;
+	float:right;border:1px solid red;height:212px;
+}

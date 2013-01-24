@@ -1,0 +1,275 @@
+#teacher .tea-rec .circle{
+	width:702px;
+	float:left;	
+}
+#teacher .circle-tm,#teacher .circle-con,#teacher .circle-bm{
+	background-color:#fff;
+}
+#teacher .tea-rec .circle-con dt{
+	float:left;	
+}
+
+#teacher .tea-rec .circle-con dl{
+	width:330px;
+	color:#797979;
+	float:left;
+	margin-left:13px;
+	margin-top:16px;
+	display:inline;
+}
+#teacher .teach-left{
+	float:left;
+}
+#teacher .teach-right{
+	float:right;
+}
+#teacher .teacherbg{
+	overflow:hidden;
+	width:701px;
+	height:38px;
+	background:url(../images/teacher/teacherbj.gif) 0 center repeat-x;
+}
+#teacher .tea-rec .circle-con .teach-rec-te{
+	margin-top:3px;
+}
+#teacher .tea-rec .circle-con dt div{
+	font-size:14px;
+	width:168px;
+	text-align:center;
+}
+#teacher .teach-over{
+	height:75px;
+	line-height:25px;
+}
+#teacher .tea-rec .circle-con dd{
+	float:left;
+	width:150px;
+	margin-left:12px;
+	display:inline;
+	overflow:hidden;
+}
+#teacher .tea-rec .circle-con dd span{
+	font-size:14px;
+}
+#teacher .tea-rec .circle-con{
+	height:363px;
+}
+#teacher .tea-cen-bor{
+	width:978px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#teacher .tea-pro .circle{
+	width:260px;
+	float:right;
+	
+}
+#teacher .tea-pro .circle-con{
+	height:363px;
+}
+#teacher .tea-pro .circle-con .pnPage{
+	margin-top:9px;
+}
+#teacher .tea-pro .circle-con dl{
+	width:238px;
+	height:91px;
+	padding-top:11px;
+	padding-left:20px;
+	background:url(../images/teacher/teacherbj.gif) 0 bottom repeat-x;
+}
+#teacher .tea-pro .circle-con .teach-pro-nobg{
+	background:none;
+}
+#teacher .tea-pro .circle-con dt{
+	float:left;
+}
+#teacher .tea-pro .circle-con dd{
+	float:left;
+	width:120px;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+}
+
+#teacher .tea-cou .circle{
+	width:702px;
+	float:left;
+	margin-top:15px;	
+}
+#teacher .tea-cou .circle-con{
+	height:488px;
+}
+#teacher .tea-cou .circle-con .teach-cou-img{
+	width:245px;
+	float:left;
+	margin-left:15px;
+	margin-top:17px;
+	display:inline;
+	
+}
+#teacher .tea-cou .circle-con .teach-cou-img .teach-cou-img-img{
+	width:230px;
+	height:153px;
+	
+}
+#teacher .tea-job .circle{
+	width:260px;
+	float:left;
+	margin-left:16px;
+	margin-top:15px;
+	
+}
+#teacher .tea-luos .circle{
+	width:260px;
+	float:left;
+	margin-left:16px;
+	margin-top:15px;
+	
+}
+#teacher .teach-cou-36{
+	color:#838383;
+	font-size:14px;
+	margin-top:15px;
+	line-height:26px;
+	height:26px;
+	overflow:hidden;
+}
+#teacher .teach-cou-photo{
+	color:#838383;
+	font-size:12px;
+	line-height:24px;
+	text-indent:4em;
+	overflow:hidden;
+	height:142px;
+}
+#teacher .tea-cou .circle-con .teach-cou-img a{
+	color:#a61111;
+}
+#teacher .teach-cou-img-smart{
+	margin-top:23px;	
+}
+#teacher .teach-cou-img-smart a{
+	width:67px;
+	height:44px;
+	border:1px solid #352e2c;
+	overflow:hidden;
+}
+.teach-cou-img-smart-3{
+	float:right;
+}
+.teach-cou-img-smart-1{
+	float:left;
+}
+.teach-cou-img-smart-2{
+	float:left;
+	margin-left:19px;
+	display:inline;
+}
+#teacher .teach-cou-img-smart a:hover{
+	border:1px solid #fb6424;
+}
+#teacher .tea-cou .circle-con .teach-cou-right{
+	width:434px;
+	float:right;
+	margin-top:17px;
+	display:inline;
+}
+#teacher .teach-cou-right div{
+	margin-bottom:20px;
+	color:#838383;
+}
+.teach-cou-right-p{
+	font-size:14px;
+}
+.teach-cou-right-b{
+	line-height:18px;
+}
+#teacher .teach-cou-right a{
+	color:#a00000;
+}
+#teacher .teach-cou-right .teach-cou-right-5{
+	margin-bottom:0px;
+}
+/*就业学员*/
+#teacher .ws-rc .circle-con{
+	height:170px;
+}
+
+#teacher .ws-rc {
+	width:260px;
+	float:left;
+	margin-top:15px;
+	margin-left:16px;
+}
+#teacher .ws-rc .pic{
+	overflow:hidden;
+}
+#teacher .ws-rc .pic {
+	padding: 8px 0 0 8px;
+}
+#teacher .ws-rc .pic a{
+	display: inline;
+	float:left;
+	margin-left:6px;
+}
+#teacher .ws-rc .pic a img {
+	float: left;
+}
+ #teacher .ws-rc .pic .big{
+	margin-left: 0;
+}
+
+#teacher .ws-rc .pic .footer{
+	margin-top: 4px;
+}
+
+
+
+/*就业感言*/
+#teacher .wt-rc .circle-con{
+	height:247px;
+}
+.wt-rc{
+	width:260px;
+	float:left;
+	margin-top:20px;
+	margin-left:16px;
+}
+.wt-rc .circle-con{
+	padding-bottom:15px;
+}
+.wt-rc .left{
+	float:left;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.wt-rc .middle{
+	float:left;
+	width:168px;
+	height:118px;
+	margin:0 auto;
+	margin-top:13px;
+	margin-left:19px;
+
+}
+.wt-rc .right{
+	float:right;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.wt-rc .pic{
+	overflow:hidden;
+}
+.wt-rc .content h4{
+	font-size:14px;
+	text-align:center;
+	color:#797979;
+	overflow:hidden;
+}
+.wt-rc .content p{
+	font-size:14px;
+	width:221px;
+	margin:0 auto;
+}

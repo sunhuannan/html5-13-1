@@ -1,0 +1,110 @@
+/*头部与布局*/
+#r_tl .middle{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+}
+#r_tl .main-top{
+	float:left;
+	width:702px;
+	height:27px;
+}
+#r_tl .midRig{
+	float:right;
+	width:260px;
+	height:187px;
+}
+/*开发优势*/
+
+
+#r_tl .midRig .circle-con{
+	height:146px;
+}
+/*业务列表*/
+#r_tl .midCon .circle-con{
+	height:145px;
+}
+
+
+#r_tl .midBot .circle-con{
+	height:169px;
+	overflow:hidden;
+}
+
+
+
+
+/**/
+#r_tl .circle{
+	float:left;
+	width:702px;
+	margin-top:6px;
+}
+#r_tl .circle-con{
+	height:854px;
+}
+#r_tl .midCon{
+	float:right;
+	width:260px;
+	height:178px;
+	margin-top:15px;
+}
+#r_tl .midBot{
+	float:right;
+	width:260px;
+	height:202px;
+	margin-top:15px;
+}
+/*左侧列表内容*/
+#r_tl .cuteMath{
+	padding-top:15px;
+	overflow:hidden;
+	font-size:14px;
+	height:148px;
+	width:700px;
+	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
+}
+#r_tl .cuteMath a.teacher{
+	float:left;
+	margin-left:21px;
+}
+#r_tl .cuteMath a.name{
+	width:400px;
+	float:left;
+	margin:5px 0px 0px 22px;
+	color:#fca775;
+	line-height:20px;
+	font-size:14px;
+	text-decoration:none;
+}
+#r_tl .cuteMath h4.teacher{
+	margin-top:0px;
+}
+#r_tl .cuteMath p{
+	color:#797979;
+	font-size:12px;
+	margin-left:22px;
+	width:480px;
+	float:left;	
+}
+#r_tl .cuteMath a{
+	color:#a00000;
+	text-decoration:underline;
+	float:left;
+	margin-left:21px;
+	font-size:11px;
+}
+#r_tl .cuteMath.exc{
+	background:none;
+}
+/*左侧列表无背景设置*/
+#r_tl .middle .circle-tm{
+	background-color:#fff;
+}
+#r_tl .middle .circle-con{
+	background-color:#fff;
+}
+#r_tl .middle .circle-bm{
+	background-color:#fff;
+}

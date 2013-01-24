@@ -1,0 +1,73 @@
+/*企业反馈*/
+/*==================================html代码==========================================*/
+<div class="comm_rc">
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>企业反馈</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../rdc/r_eva.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>	
+	<div class="circle-con">
+		<a href="http://www.sina.com"><img class="cxy-bg" src="../images/companybg.gif" alt="pic" /></a>
+		<span class="cxy-word">爱嘉途（北京）旅游网</span>
+		<p class="cxy-charter">张青松的到来，给我们的团队注入了新鲜的血液，成功解决了长期困扰公司的难题。对于一家互联...</p>
+		<a href="more" class="cxy-link">more+</a>
+		<div class="pnPage clearfix">
+			<span class="pnPageDown"></span>
+			<span class="pnPageUp"></span>
+			<span class="pnPageNumR">10</span>
+			<span>/</span>
+			<span class="pnPageNumL">1</span>
+		</div>
+	</div>
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>
+/*==================================css代码==========================================*/
+.comm_rc{
+	width:260px;
+}
+.titleBar-icon{ display: none; }
+.comm_rc .circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.cxy-bg{
+	float:left;
+	width:44px;
+	height:32px;
+	margin-top:14px;
+	margin-left:15px;
+	overflow:hidden;
+}
+.cxy-word{
+	float:left;
+	width:183px;
+	height:30px;
+	margin-top:16px;
+	margin-left:12px;
+	font-size:14px;
+	color:#b7b7b7;
+	overflow:hidden;
+}
+.cxy-charter{
+	width:186px;
+	height:59px;
+	overflow:hidden;
+	color:#989898;
+	padding-top:2px;
+	margin-left:70px;
+}
+.cxy-link{
+	display:block;
+	margin-left:70px;
+	width:186px;
+	color:#a00000;
+}
+/*==================================css代码完毕==========================================*/

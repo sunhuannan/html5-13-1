@@ -1,0 +1,95 @@
+/*头部与布局*/
+#r_pl .middle{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+}
+#r_pl .main-top{
+	float:left;
+	width:702px;
+	height:27px;
+}
+#r_pl .midRig{
+	float:right;
+	width:260px;
+	height:178px;
+	border:1px solid #e3e3e3;
+}
+#r_pl .circle{
+	float:left;
+	width:702px;
+	margin-top:6px;
+}
+#r_pl .circle-con{
+	height:697px;
+}
+#r_pl .midBot{
+	float:right;
+	width:260px;
+	height:178px;
+	border:1px solid #e3e3e3;
+	margin-top:15px;
+}
+/*左侧列表内容*/
+#r_pl .cuteMath{
+	padding-top:15px;
+	overflow:hidden;
+	font-size:14px;
+	height:95px;
+	width:700px;
+	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
+}
+#r_pl .cuteMath a.teacher{
+	float:left;
+	margin-left:21px;
+}
+#r_pl .cuteMath a.name{
+	width:570px;
+	float:left;
+	margin-left:22px;
+	color:#fca775;
+	line-height:15px;
+	font-size:14px;
+	text-decoration:none;
+}
+#r_pl .cuteMath span{
+	float:left;
+	margin-left:35px;
+	color:#8b8c8c;
+	font-size:12px;
+}
+#r_pl .cuteMath span.edu{
+	margin-left:22px;
+}
+#r_pl .study{
+	float:left;
+	width:590px;
+}
+#r_pl .study p{
+	color:#797979;
+	font-size:12px;
+	margin-left:22px;
+}
+#r_pl .study span{
+	height:20px;
+	margin-left:22px;
+}
+#r_pl .study a{
+	color:#a00000;
+	text-decoration:underline;
+	font-size:11px;
+}
+#r_pl .cuteMath.exc{
+	background:none;
+}
+/*左侧列表无背景设置*/
+#r_pl .middle .circle-tm{
+	background-color:#fff;
+}
+#r_pl .middle .circle-con{
+	background-color:#fff;
+}
+#r_pl .middle .circle-bm{
+	background-color:#fff;
+}

@@ -1,0 +1,86 @@
+/*培训答疑*/
+/*==================================html代码==========================================*/
+<div class="tqa_rc">
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>培训答疑</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../qa.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class="circle-con">
+		<div class="th_pl-words">
+			<strong>1</strong>
+			<span>学校报名流程及入学流程....</span>
+		</div>
+		<div class="th_pl-it">
+			<p>参加博看文思课程的学习，可直接与我们的网络咨询顾问联系，也可拨通网站上的免费咨询电话，我们的咨询人员将为您进行详细的讲解并且会为您安...</p>
+		</div>
+		<div class="pnPage clearfix">
+			<span class="pnPageDown"></span>
+			<span class="pnPageUp"></span>
+			<span class="pnPageNumR">10</span>
+			<span>/</span>
+			<span class="pnPageNumL">1</span>
+		</div>
+	</div>
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>
+
+/*==================================css代码==========================================*/
+.tqa_rc{
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.tqa_rc .circle-con{
+	width:258px;
+	background:#ffffff;
+	padding-top:12px;
+}
+.th_pl-words{
+	width:246px;
+	height:36px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(../images/th_pl-bg1.gif) 0px 0px no-repeat;
+}
+.th_pl-words strong{
+	float:left;
+	width:37px;
+	line-height:36px;
+	text-align:center;
+	font-weight:bold;
+	color:#646464;
+}
+.th_pl-words span{
+	float:left;
+	width:205px;
+	line-height:36px;
+	text-align:center;
+	color:#bababa;
+}
+.th_pl-it{
+	width:248px;
+	height:156px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(../images/th_pl-bg.gif) 0px 0px no-repeat;
+}
+.th_pl-it p{
+	width:217px;
+	height:100px;
+	line-height:22px;
+	margin:0 auto;
+	margin-top:30px;
+	color:#c7c7c7;
+}
+.tqa_rc .pnPage{
+	margin-top:15px;
+}
+/*==================================css代码完毕==========================================*/

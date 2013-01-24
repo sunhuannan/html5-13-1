@@ -1,0 +1,126 @@
+#rdc .content{
+	width:994px;
+	height:618px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#rdc .content .project,#rdc .content .advance,#rdc .content .research,#rdc .content .news,#rdc .content .business,#rdc .content .feedback,#rdc .content .outerpack{
+	margin:8px;
+	_display:inline;
+}
+#rdc .content .project .circle-con,#rdc .content .advance .circle-con,#rdc .content .research .circle-con,#rdc .content .news .circle-con,#rdc .content .business .circle-con,#rdc .content .feedback .circle-con,#rdc .content .outerpack .circle-con{
+	background:none;
+}
+#rdc .content .project{
+	width:702px;
+	height:178px;
+	float:left;
+	margin-top:0;
+}
+#rdc .content .advance{
+	width:260px;
+	height:178px;
+	float:right;
+	margin-top:0;
+}
+#rdc .content .research{
+	width:343px;
+	height:292px;
+	float:left;
+}
+#rdc .content .news{
+	width:343px;
+	height:292px;
+	float:left;
+}
+#rdc .content .business{
+	width:260px;
+	height:178px;
+	float:right;
+}
+#rdc .content .feedback{
+	width:260px;
+	height:202px;
+	float:right;
+}
+#rdc .content .outerpack{
+	width:702px;
+	height:88px;
+	float:left;
+}
+#rdc .content .outerpack li{
+	float:left;
+	width:60px;
+	text-align:center;
+	font-size:14px;
+	height:36px;
+}
+#rdc .content .outerpack ul{
+	padding-top:20px;
+	overflow:hidden;
+	height:36px;
+	width:667px;
+	margin:0 auto;
+}
+#rdc .content .advance .titleBar-icon,#rdc .content .business .titleBar-icon,#rdc .content .feedback .titleBar-icon{
+	display:none;
+}
+#rdc .content .news li{
+	height:36px;
+	line-height:36px;
+	border-bottom:1px dotted #a8a6a6;
+	width:310px;
+	margin:0 auto;
+}
+#rdc .content .news .bd-last{
+	border:0 none;
+}
+#rdc .content .news li a{
+	color:#6e6e6e;
+}
+#rdc .content .news li a:hover{
+	color:#ff7022;
+}
+#rdc .content .research .circle-con img{
+	width:130px;
+	height:84px;
+	border:3px solid #7f7f7f;
+}
+#rdc .content .research .circle-con .a-img{
+	float:left;
+	padding:16px 17px 0px;
+	overflow:hidden;
+}
+#rdc .research .circle-con{
+	background:none;
+	height:260px;
+}
+#rdc .project .img-con{
+	width:700px;
+	margin:0 auto;
+}
+#rdc .project .circle-con  .img-con .btn-left{
+	width:27px;
+	float:left;
+	margin:38px 0 0;
+	_display:inline;
+}
+#rdc .project .circle-con  .img-con .btn-right{
+	width:27px;
+	float:right;
+	margin:38px 0 0;
+	_display:inline;
+}
+#rdc .project .circle-con{
+	background:white;
+	height:142px;
+}
+#rdc .project .circle-con .img-con a{
+	float:left;
+	width:80px;
+	text-align:center;
+	margin:20px 6px;
+	_display:inline;
+	text-decoration:none;
+	color:black;
+}

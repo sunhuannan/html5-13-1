@@ -1,0 +1,74 @@
+html代码：
+-----------------------------------------------------------------------------------------------
+<div class='ti_rc'>
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>师资介绍</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../teacher/te_il.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class='circle-con'>
+		<div class='pic'>
+			<a href='#' class='left'><img src='../images/left.gif' /></a>
+			<a href='../teacher/te_ia.html' class='middle'><img src='../images/girl.gif' alt="崔亚云" /></a>
+			<a href='#' class='right'><img src='../images/right.gif' /></a>
+		</div>
+		<h4>
+			<span class='position'>IOS高级讲师</span>
+			<span class='name'>崔亚云</span>
+		</h4>
+	</div>
+	<div class='bottom'>
+		<div class="circle-bm">					
+			<div class="circle-bl">				
+				<div class="circle-br"></div>	
+			</div>
+		</div>
+	</div>
+</div>
+------------------------------------------------------------------------------------------------
+css代码：
+----------------------------
+.ti_rc .left{
+	float:left;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.ti_rc .middle{
+	float:left;
+	width:168px;
+	height:118px;
+	margin:0 auto;
+	margin-top:23px;
+	margin-left:19px;
+
+}
+.ti_rc .right{
+	float:right;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.ti_rc{
+	width:260px;
+
+}
+.ti_rc .pic{
+	overflow:hidden;
+}
+.ti_rc h4{
+	height:35px;
+	font-size:14px;
+	color:#797979;
+	padding-top:6px;
+}
+.ti_rc  .position{
+	padding-left:58px;
+}
+.ti_rc  .name{
+	padding-left:23px;
+}

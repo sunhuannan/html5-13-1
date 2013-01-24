@@ -1,0 +1,526 @@
+ /*以下为整个项目用到的所有组件 */
+
+/*现在位置组件：nowPos*/
+/*
+ * 名称：现在位置组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日10:23:00
+ */
+.nowPos-m { background: url(../images/nowPos-back.gif) 0 -27px repeat-x; }
+.nowPos-r {	background: url(../images/nowPos-back.gif) right 0 no-repeat; }
+.nowPos-l { height: 27px; width: 100%; line-height: 27px; background: url(../images/nowPos-blue.gif) left 0 no-repeat; }
+.nowPosN { display: inline;	width:75px;	margin-left: 27px; float: left;	overflow: hidden; color: #b1d9ea; font-size: 12px; }
+.nowPosP { display: inline;	margin-right: 10px;	float: right; color: #aaaaaa; font-size: 12px; }
+/*-----nowPos Over-----*/
+/*=====================*/
+
+/*资讯组件：arcInfo*/
+/*
+ * 名称：咨询组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日10:53:05
+ */
+.arcInfo {border-top: 1px solid #e6e6e6; padding: 5px 35px; overflow: hidden; } 
+.arcInfo h3 {font-size: 12px; color: #fd8c4a; line-height: 30px; } 
+.arcInfo ul li {width: 310px; line-height: 30px; font-size: 12px; overflow: hidden; } 
+.arcInfo ul li a {color: #535351; } 
+.arcInfo ul li a:hover {text-decoration: none; } 
+.arcInfo-l, .arcInfo-r {float: left; overflow: hidden; } 
+.arcInfo-r {display: inline; margin-left: 120px; } 
+/*-----arcInfo Over-----*/
+/*=====================*/
+
+/* 文章导航组件：arcNav*/
+/*
+ * 名称：文章导航组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日11:15:39
+ * 修改人：韩元东
+ * 修改时间： 2013年1月22日14:27:35
+ * 修改内容：
+ * 			1. .arcNar-r背景图位置改成右边+宽度BUG。
+ *    		2. padding-left --->padding-left+padding-right
+ *    		3. text-align:left ---> text-align: left; + text-align: right;
+ *    		4. span ---> float: none;    //2013年1月22日15:27:43
+ * 
+ */
+.arcNav { height: 24px; padding: 12px; } 
+.arcNav a { display: inline; width: 410px; height: 24px; line-height: 24px; overflow: hidden; } 
+.arcNav a:hover { text-decoration: none; } 
+.arcNav a span { font-size: 12px; color: #6e6e6e; overflow: hidden; } 
+.arcNav .arcNav-l span, .arcNav .arcNav-r span  { float: none; }
+.arcNav-l { padding-left: 38px; float: left; text-align: left; background: url(../images/arcNav-back.gif) 0 0 no-repeat; } 
+.arcNav-r { padding-right: 38px; float: right; text-align: right; background: url(../images/arcNav-back.gif) right -24px no-repeat; } 
+/*-----arcNav Over-----*/
+/*=====================*/
+
+/* 圆角组件：circle*/
+/*
+ * 名称：圆角组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日11:59:01
+ * 修改人：韩元东
+ * 修改时间：2013年1月22日14:27:42
+ * 修改内容：解决IE6最小高度BUG。
+ */
+.circle {width: 100%; } 
+.circle-tm {background: #f7fafb url(../images/circle-t-back.gif) 0 -3px repeat-x; } /*(#f7fafb) --> 头部圆角DIV背景色*/
+.circle-tl {background: url(../images/circle-t-back.gif) left 0 no-repeat; } 
+.circle-tr {background: url(../images/circle-t-back.gif) right -6px no-repeat; height: 3px; overflow: hidden; } 
+.circle-con {border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; background-color: #f7fafb; } /*(#f7fafb) --> 内容DIV背景色*/
+.circle-bm {background: #f7fafb url(../images/circle-b-back.gif) 0 -3px repeat-x; } /*(#f7fafb) --> 尾部圆角DIV背景色*/
+.circle-bl {background: url(../images/circle-b-back.gif) left 0 no-repeat; } 
+.circle-br {background: url(../images/circle-b-back.gif) right -6px no-repeat; height: 3px; overflow: hidden; }
+/*-----circle Over-----*/
+/*=====================*/
+
+/* 上下翻页组件：pnPage*/
+/*
+ * 名称：上下翻页组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日14:44:39
+ * 
+ */
+ .pnPage { padding: 6px 12px; clear: both; } /*因为这个组件自己占满行，所以加上clear:both*/
+ .pnPage span {display: inline; line-height: 24px; float: right; font-size: 12px; color: #989898; } 
+ .pnPageUp, .pnPageDown {width: 24px; height: 24px; cursor: pointer; } 
+ .pnPageUp {margin-right: 8px; background: url(../images/pnPage-back.gif) 0 0 no-repeat; } 
+ .pnPageDown {background: url(../images/pnPage-back.gif) 0 -24px no-repeat; } 
+ .pnPageNumR { margin: 0 10px 0 6px; } 
+ .pnPageNumL { margin-right: 6px; } 
+ /*-----circle Over-----*/
+/*=====================
+
+/* 标题栏组件：titleBar*/
+/*
+ * 名称：标题栏组件
+ * 作者：韩元东
+ * 开发时间：2013年1月22日14:44:39
+ * 
+ */
+.titleBar { background: url(../images/titleBar-back.gif) 0 -33px repeat-x; } 
+.titleBar-l { background: url(../images/titleBar-back.gif) left 0 no-repeat; } 
+.titleBar-r { position: relative; left: 0; top: 0; z-index: 1; background: url(../images/titleBar-back.gif) right -66px no-repeat; padding-left: 20px; } 
+.titleBar h2 { width: 80px; height: 33px; line-height: 32px; font-size: 12px; color: #222222; float: left; overflow: hidden; } 
+.titleBar-more { width: 25px; height: 8px; margin: 12px 14px 0 0; float: right; overflow: hidden; background: url(../images/titleBar-more.gif) no-repeat; } 
+.titleBar-icon { position: absolute; right: 0; top: 0; z-index: 1; width: 13px; height: 13px; float: right; overflow: hidden; background: url(../images/titleBar-Icon.gif) no-repeat; } 
+/*-----titleBar Over-----*/
+/*=====================
+/*
+ *名称：页面底部
+ *作者：陈炜骐
+ *开发时间：2013年1月22日
+ *修改人：无
+ *修改时间：无
+ *描述：用于所有页面的底部
+ */
+
+/* 此代码中有清浮动使用时请在自己的CSS中
+	添加   .clear{clear:both}
+	注意改好路径。在HTML代码中一级页面不需要更改路径   二级页面需要在html的图片路径前加../
+*/
+/*CSS代码 使用时直接复制粘贴*/
+.page-bot-bg{
+	margin-top:23px;
+	width:100%;
+	height:289px;
+	background:url(../images/page-bottom/page-bot-bg.gif) 0 0 repeat-x;
+	padding-top:5px;
+}
+.page-bot-bg-top1{
+	width:100%;
+	background:url(../images/page-bottom/page-bot-bg-top.gif) 0 -8px repeat-x;
+}
+.page-bot-bg-top2{
+	background:url(../images/page-bottom/page-bot-bg-top.gif) 0 0 no-repeat;
+}
+.page-bot-bg-top3{
+	height:8px;
+	overflow:hidden;
+	background:url(../images//page-bottom/page-bot-bg-top.gif) right -16px no-repeat;
+}
+.page-bot-center{
+	width:978px;
+	height:179px;	
+	margin:8px auto;
+	margin-bottom:0px;
+}
+.page-bot-link{
+	width:695px;
+	height:146px;
+	padding-left:3px;
+	float:left;
+	display:inline;
+	background:url(../images/page-bottom/page-bot-linkbot.gif) center bottom no-repeat;
+}
+.page-bot-link img{
+	float:left;
+	width:32px;
+	height:31px;
+}
+.page-bot-link span{
+	font-size:16px;
+	color:#d0dae1;
+	line-height:31px;
+	float:left;
+	margin-left:10px;
+	display:inline;
+}
+
+.page-bot-link table{
+	margin-top:9px;
+	
+}
+.page-bot-link table td{
+	width:105px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.page-bot-link table td a{
+	color:#bcd0df;
+}
+.page-bot-apply{
+	width:280px;
+	height:178px;
+	float:left;
+	background:url(../images/page-bottom/page-bot-bg-center.gif) 0 0 no-repeat;
+}
+.page-bot-apply img{
+	float:left;
+	width:26px;
+	height:30px;
+	margin-top:1px;
+	margin-left:35px;
+	display:inline;
+	margin-bottom:16px;
+}
+.page-bot-apply span{
+	font-size:16px;
+	color:#d0dae1;
+	line-height:30px;
+	float:left;
+	margin-left:10px;
+	display:inline;
+}
+.page-bot-apply td{
+	
+	
+}
+.page-bot-apply table{
+	margin-left:37px;
+	margin-bottom:3px;
+}
+.page-bot-apply-text{
+	width:207px;
+	height:25px;
+}
+.page-bot-apply-text input{
+	width:207px;
+	height:25px;
+	margin-bottom:7px;
+	margin-left:11px;
+	background:url(../images/page-bottom/page-bot-text.gif) 0 0 no-repeat;
+}
+.page-bot-apply-name{
+	color:#bcd0df;
+	font-size:12px;
+}
+.page-bot-apply-a{
+}
+.page-bot-apply-a a{
+	float:right;
+	width:88px;
+	height:29px;
+	background:url(../images/page-bottom/bottom-blue-btn.gif) 0 0 no-repeat;
+	font-size:14px;
+	color:#bcd0df;
+	text-align:center;
+	line-height:29px;
+	margin-left:13px;
+}
+.page-bot-apply-a a:hover{
+	background:url(../images/page-bottom/bottom-red-btn.gif) 0 0 no-repeat;
+	text-decoration:none;
+}
+.page-bot-go{
+	width:90px;
+	height:23px;
+	margin:-5px auto;
+	margin-bottom:0px;
+}
+.page-bot-add{
+	width:410px;
+	height:32px;
+	color:#959595;
+	float:left;
+	margin-top:20px;
+	margin-left:14%;
+	display:inline;
+	_margin-top:5px;
+}
+.page-bot-inter{
+	float:right;
+	margin-right:14%;
+	display:inline;
+	padding-top:20px;
+	margin-left:17px;
+}
+.page-bot-inter a{
+	color:#3e566a;
+	margin-left:8px;
+}
+.page-bot-inter span{
+	margin-left:8px;
+}
+
+/*
+ *名称：页面头部
+ *作者：孙立军
+ *开发时间：2013年1月22日
+ *修改人：无
+ *修改时间：无
+ *描述：用于所有页面的头部，如果想在一级按钮下，出现二级页面的按钮，需要手动给li添加class="select"
+ */
+.header{
+	height:108px;
+	width:100%;
+	background:url(../images/index-headerbg.gif) 0 0 repeat-x;
+ }
+.header-nav{
+	height:108px;
+	width:980px;
+	margin:0 auto;
+	position:relative;
+	left:0;
+	top:0;
+}
+.header-nav h1{
+	padding-top:30px;
+	height:38px;
+	float:left;
+}
+.header-nav .address{
+	float:right;
+	font-size:16px;
+	color:white;
+	padding-top:40px;
+	width:320px;
+}
+.header-nav .address span{
+	float:left;
+	background:url(../images/index-call.gif) 0 0 no-repeat;
+	text-indent:30px;
+}
+.header-nav .address a{
+	float:right;
+	width:16px;
+	height:21px;
+}
+.header-nav .address .sina{
+	background:url(../images/index-sinaLogo.gif) 0 5px no-repeat;
+	margin-right:5px;
+	_display:inline;
+}
+.header-nav .address .blog{
+	background:url(../images/index-blogLogo.gif) 0 5px no-repeat;
+}
+/* 头部导航 */
+.header-nav .nav{
+	width:980px;
+	height:50px;
+	position:absolute;
+	bottom:-25px;
+	left:0;
+	line-height:50px;
+}
+.header-nav .nav .bg-center{
+	background:url(../images/index-nav.gif) 0 -50px repeat-x;
+}
+.header-nav .nav .bg-left{
+	background:url(../images/index-nav.gif) 0 0 no-repeat;
+}
+.header-nav .nav .bg-right{
+	background:url(../images/index-nav.gif) right -100px no-repeat;
+	height:50px;
+}
+.header-nav .nav li{
+	float:left;
+	position:relative;
+	height:50px;
+}
+.header .header-nav .nav span{
+	float:left;
+}
+.header-nav .nav .shouye{
+	padding:0;
+	width:50px;
+	text-align:center;
+	padding-left:7px;
+}
+.header-nav .nav .shouye img{
+	padding-top:18px;
+}
+.header-nav .nav .nav-btn{
+	float:left;
+	width:111px;
+	text-align:center;
+	font-size:13px;
+	color:#686868;
+	height:50px;
+}
+.header-nav .nav a:hover{
+	text-decoration:none;
+}
+.header-nav .nav .position{
+	position:absolute;
+	left:-65px;
+	top:80%;
+	width:980px;
+	text-align:center;
+	font-size:12px;
+	display:none;
+}
+.header-nav .nav .position-last{
+	position:absolute;
+	left:-300px;
+	top:100%;
+	width:980px;
+	text-align:center;
+	font-size:12px;
+	display:none;
+}
+.header-nav .nav .position a,.header-nav .nav .position-last a{
+	color:#606060;
+	width:92px;
+	float:left;
+	text-align:center;
+}
+.header-nav .nav .select .nav-btn{
+	background:url(../images/index-navbtn.gif) 0 8px no-repeat;
+}
+.header-nav .nav .select .position,.header-nav .nav .select .position-last{
+	display:block;
+}
+.header-nav .nav .select .position a:hover,.header-nav .nav .select .position-last a:hover{
+	background:url(../images/index-nav-graybtn.gif) 0 14px no-repeat;
+	color:white;
+}
+.nav-positionbg{
+	height:58px;
+	width:100%;
+	background:url(../images/Grey-top.gif) 0 0 repeat-x;
+	margin-bottom:14px;
+}
+
+/*
+ * 列表页面的右侧12个模块代码
+ * 作者：陈晓钰+王静
+ * 检测并整合：韩元东
+ */
+/*陈晓钰写的*/
+/*公司项目+学生项目*/
+/*comP_rc*/
+.comP_rc {width:260px; } 
+.titleBar-icon { display: none; } 
+.comP_rc .circle-con{width:258px; background:#ffffff; } 
+.c_dl-div,.c_dl-cl{width:258px; height:94px; padding-top:17px; border-bottom:1px solid #e3e3e3; } 
+.circle-con .c_dl-cl{border:none; } 
+.c_dl-comP_rc .pnPage{margin-top:23px; } 
+.c_dl-img{float:left; width:80px; margin-left:19px } 
+.c_dl-word{float:left; width:135px; height:19px; margin-left:15px; color:#989898; overflow:hidden; } 
+/*培训答疑*/
+/*tqa_rc*/
+.tqa_rc{width:260px; } 
+.titleBar-icon { display: none; } 
+.tqa_rc .circle-con{width:258px; background:#ffffff; padding-top:12px; } 
+.th_pl-words{width:246px; height:36px; margin:0 auto; overflow:hidden; background:url(../images/th_pl-bg1.gif) 0px 0px no-repeat; } 
+.th_pl-words strong{float:left; width:37px; line-height:36px; text-align:center; font-weight:bold; color:#646464; } 
+.th_pl-words span{float:left; width:205px; line-height:36px; text-align:center; color:#bababa; } 
+.th_pl-it{width:248px; height:156px; margin:0 auto; overflow:hidden; background:url(../images/th_pl-bg.gif) 0px 0px no-repeat; } 
+.th_pl-it p{width:217px; height:100px; line-height:22px; margin:0 auto; margin-top:30px; color:#c7c7c7; } 
+.tqa_rc .pnPage{margin-top:15px; } 
+/*企业反馈*/
+/*comm_rc*/
+.comm_rc{width:260px; } 
+.titleBar-icon{ display: none; } 
+.comm_rc .circle-con{width:258px; background:#ffffff; overflow:hidden;} 
+.cxy-bg{float:left; width:44px; height:32px; margin-top:14px; margin-left:15px; overflow:hidden; } 
+.cxy-word{float:left; width:183px; height:30px; margin-top:16px; margin-left:12px; font-size:14px; color:#b7b7b7; overflow:hidden; } 
+.cxy-charter{width:186px; height:64px; overflow:hidden; color:#989898; padding-top:2px; margin-left:70px; } 
+.cxy-link{display:block; margin-left:70px; width:186px; color:#a00000; }
+/*=============陈晓钰结束===============*/
+/*王静写的*/
+/*就业感言*/
+/*wt-rc*/
+.wt-rc{width:260px; } 
+.wt-rc .pic{padding-bottom:6px; } 
+.wt-rc .left{float:left; width:26px; height:38px; margin-top:61px; } 
+.wt-rc .middle{float:left; width:168px; height:118px; margin:0 auto; margin-top:13px; margin-left:19px; } 
+.wt-rc .right{float:right; width:26px; height:38px; margin-top:61px; } 
+.wt-rc .pic{overflow:hidden; } 
+.wt-rc .content { padding-bottom: 14px;}
+.wt-rc .content h4{font-size:14px; text-align:center; color:#797979; overflow:hidden; } 
+.wt-rc .content p{font-size:14px; width:221px; margin:0 auto; line-height:20px; color:#797979; overflow:hidden; } 
+/*最新开班*/
+/*nc-rc*/
+.nc-rc{width:260px; } 
+.titleBar-icon { display: none; } 
+.nc-rc .circle-con{width:258px; background:#ffffff; } 
+.nc-rc-ul{width:235px; height:140px; margin:0 auto; overflow:hidden; } 
+.nc-rc-li,.nc-rc-last{float:left; width:235px; line-height:35px; color:#6e6e6e; overflow:hidden; border-bottom:1px dotted #a8a6a6; } 
+.nc-rc-last{border:none; } 
+.nc-rc-span{float:left; width:130px; height:35px; overflow:hidden; } 
+.nc-rc-span1{float:right; height:35px; width:45px; overflow:hidden; } 
+/*就业学员*/
+/*ws-rc*/
+.ws-rc {width:260px; } 
+.ws-rc .pic{overflow:hidden; } 
+.ws-rc .pic {padding: 8px 0 0 8px; } 
+.ws-rc .pic a{display: inline; float:left; margin-left:6px; } 
+.ws-rc .pic a img {float: left; } 
+.ws-rc .pic .big{margin-left: 0; } 
+.ws-rc .pic .footer{margin-top: 4px; }
+/*开发优势*/
+/*ds-rc*/
+.ds-rc li{height:35px; line-height:35px; width:197px; margin-left:10px; padding-left:40px; overflow:hidden; } 
+.ds-rc li a {color:#797979; } 
+.ds-rc li a:hover {color:#797979; text-decoration: none; } 
+.ds-rc .list1{background:url('../images/bg1.gif') 0 bottom no-repeat; } 
+.ds-rc .list2{background:url('../images/bg2.gif') 0 bottom no-repeat; } 
+.ds-rc .list3{background:url('../images/bg5.gif') 0 bottom no-repeat; } 
+.ds-rc .list4{background:url('../images/bg7.gif') 0 bottom no-repeat; } 
+.ds-rc{width:260px; } 
+/*师资介绍*/
+/*ti_rc*/
+.ti_rc .left{float:left; width:26px; height:38px; margin-top:61px; } 
+.ti_rc .middle{float:left; width:168px; height:118px; margin:0 auto; margin-top:23px; margin-left:19px; } 
+.ti_rc .right{float:right; width:26px; height:38px; margin-top:61px; } 
+.ti_rc{width:260px; } 
+.ti_rc .pic{overflow:hidden; } 
+.ti_rc h4{height:35px; font-size:14px; color:#797979; padding-top:6px; } 
+.ti_rc .position{padding-left:58px; } 
+.ti_rc .name{padding-left:23px; }
+/*业务列表*/
+/*bl-rc*/
+.bl-rc{width:260px; } 
+.bl-rc li{width:194px; margin-left:15px; height:35px; line-height:35px; padding-left:40px; font-size:12px; overflow:hidden; } 
+.bl-rc li a {color:#797979; } 
+.bl-rc li a:hover {color:#797979; text-decoration: none; } 
+.bl-rc .wl-1{background:url('../images/bg11.gif') 0 0 no-repeat; } 
+.bl-rc .wl-2{background:url('../images/bg12.gif') 0 bottom no-repeat; } 
+.bl-rc .wl-3{background:url('../images/bg13.gif') 0 bottom no-repeat; } 
+.bl-rc .wl-4{background:url('../images/bg16.gif') 0 bottom no-repeat; } 
+.titlebar h2{font-weight:bold; font-size:14px; } 
+/*在线教程*/
+/*et-rc*/
+.et-rc{width:260px; } 
+.carimg{height:171px; text-align:center; padding-top:14px; } 
+.coursedetail li{width:230px; margin:0 auto; overflow:hidden; } 
+.coursedetail li {font-size:14px; color:#6e6e6e; } 
+.coursedetail li p{font-size:12px; } 
+.coursedetail .course1{height:76px; background:url('../images/j_eml-dot.gif') 0 bottom repeat-x; } 
+.coursedetail .course2{height:35px; background:url('../images/j_eml-dot.gif') 0 bottom repeat-x; } 
+.coursedetail .course3{height:35px; } 
+.titleBar h2{font-weight:bold; font-size:12px; }
+/*==============王静结束===================*/

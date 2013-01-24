@@ -1,0 +1,65 @@
+/*最新开班*/
+/*==================================html代码==========================================*/
+<div class="nc-rc">
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>最新开班</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../thrg/th_ca.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class="circle-con">
+		<ul class="nc-rc-ul">
+			<li class="nc-rc-li"><span class="nc-rc-span">IOS高级开发23班</span><span class="nc-rc-span1">5月20日</span></li>
+			<li class="nc-rc-li"><span class="nc-rc-span">HTML5程序开发课程</span><span class="nc-rc-span1">5月20日</span></li>
+			<li class="nc-rc-li"><span class="nc-rc-span">Android开发培训课程</span><span class="nc-rc-span1">5月20日</span></li>
+			<li class="nc-rc-last"><span class="nc-rc-span">IOS精选周末班</span><span class="nc-rc-span1">5月20日</span></li>
+		</ul>
+	</div>
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>
+/*==================================css代码==========================================*/
+.nc-rc{
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.nc-rc .circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.nc-rc-ul{
+	width:235px;
+	height:140px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.nc-rc-li,.nc-rc-last{
+	float:left;
+	width:235px;
+	line-height:35px;
+	color:#6e6e6e;
+	overflow:hidden;
+	border-bottom:1px dotted #a8a6a6;
+}
+.nc-rc-last{
+	border:none;
+}
+.nc-rc-span{
+	float:left;
+	width:130px;
+	height:35px;
+	overflow:hidden;
+}
+.nc-rc-span1{
+	float:right;
+	height:35px;
+	width:45px;
+	overflow:hidden;
+}
+/*==================================css代码完毕==========================================*/

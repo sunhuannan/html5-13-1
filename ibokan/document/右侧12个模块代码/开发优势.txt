@@ -1,0 +1,63 @@
+html代码:
+-----------------------------------------------------------------------------------------------------------
+<div class='ds-rc'>
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>开发优势</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../rdc/r_sa.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class='circle-con'>
+		<ul>
+			<li class='list1'><a href="../rdc/r_sa.html">研发优势一：全球顶尖技术</a></li>
+			<li class='list2'><a href="../rdc/r_sa.html">研发优势二：一流研发团队</a></li>
+			<li class='list3'><a href="../rdc/r_sa.html">研发优势三：跨国项目经验</a></li>
+			<li class='list4'><a href="../rdc/r_sa.html">研发优势四：名企项目合作</a></li>
+		</ul>
+	</div>
+	<div class='bottom'>
+		<div class="circle-bm">					
+			<div class="circle-bl">				
+				<div class="circle-br"></div>	
+			</div>
+		</div>
+	</div>
+</div>
+-------------------------------------------------------------------------------------------------------------
+css代码：
+------------------------
+.ds-rc li{
+	height:35px;
+	line-height:35px;
+	width:197px;
+	margin-left:10px;
+	padding-left:40px;
+	overflow:hidden;
+}
+.ds-rc li a {
+	color:#797979;
+}
+.ds-rc li a:hover {
+	color:#797979;
+	text-decoration: none;
+}
+.ds-rc .list1{
+	background:url('../images/bg1.gif') 0 bottom no-repeat;
+}
+.ds-rc .list2{
+	background:url('../images/bg2.gif') 0 bottom no-repeat;
+}
+.ds-rc .list3{
+	background:url('../images/bg5.gif') 0 bottom no-repeat;
+}
+.ds-rc .list4{
+	background:url('../images/bg7.gif') 0 bottom no-repeat;
+}
+
+.ds-rc{
+	width:260px;
+
+}

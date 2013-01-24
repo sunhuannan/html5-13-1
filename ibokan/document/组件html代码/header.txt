@@ -1,0 +1,112 @@
+	<div class="header">
+		<div class="header-nav">
+			<h1>
+				<a href="index.html">
+					<img src="../images/index-logo.gif" alt="博看文思的logo" />
+				</a>
+				<img class="saying" src="../images/index-saying.gif" alt="博看的说说" />
+			</h1>
+			<div class="address">
+				<span>咨询报名电话:&nbsp;&nbsp;4006-333-186</span>
+				<a class="blog" href="http://www.ibokanwisdom.com"></a>
+				<a class="sina" href="#"></a>
+			</div>
+			<div class="nav">
+				<div class="bg-center">
+					<div class="bg-left">
+						<ul>
+							<li class="shouye" >
+								<a href="index.html">
+									<img src="../images/index-shouye.gif" alt="首页的点击按钮" />
+								</a>
+							</li>
+							 <li>
+								<a class="nav-btn" href="../choice/choice.html">
+									<span>|</span>
+									选择博看
+								</a>
+								<div class="position">
+									<a href="../choice/c_ia.html">博看文思简介</a>
+									<a href="../choice/c_dl.html">博看文思动态</a>
+									<a href="../choice/c_sa.html">博看文思优势</a>
+									<a href="../choice/c_el.html">博看文思环境</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../thrg/thrg.html">
+									<span>|</span>
+									3G课程
+								</a>
+								<div class="position">
+									<a href="../thrg/th_cl.html">3G课程</a>
+									<a href="../thrg/th_pl.html">3G课程项目</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../teacher/teacher.html">
+									<span>|</span>
+									精英师资
+								</a>
+								<div class="position">
+									<a href="../teacher/te_il.html">师资介绍</a>
+									<a href="../teacher/te_ol.html">在线课程</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../practice/practice.html">
+									<span>|</span>
+									实习文化
+								</a>
+								<div class="position">
+									<a href="../practice/p_al.html">实习活动</a>
+									<a href="../practice/p_el.html">班级环境</a>
+									<a href="../practice/p_pl.html">3G培训心得</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../job/job.html">
+									<span>|</span>
+									高新就业
+								</a>
+								<div class="position">
+									<a href="../job/j_eml.html">就业学员</a>
+									<a href="../job/j_evl.html">招聘活动</a>
+									<a href="../job/j_il.html">招聘信息</a>
+									<a href="../job/j_al.html">就业感言</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../rdc/rdc.html">
+									<span>|</span>
+									研发中心
+								</a>
+								<div class="position-last">
+									<a href="../rdc/r_pl.html">经典项目</a>
+									<a href="../rdc/r_tl.html">经典开发团队</a>
+									<a href="../rdc/r_nl.html">项目新闻</a>
+									<a href="../rdc/r_eva.html">客户评价</a>
+									<a href="../rdc/r_sa.html">开发优势</a>
+									<a href="../rdc/r_ba.html">业务列表</a>
+									<a href="../rdc/r_epa.html">项目外包流程</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-btn" href="../proj.html">
+									<span>|</span>
+									实训项目
+								</a>
+							</li>
+							<li>
+								<a class="nav-btn" href="../contant.html">
+									<span>|</span>
+									联系我们
+								</a>
+							</li>
+						</ul>
+						<div class="bg-right"></div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="nav-positionbg"></div>

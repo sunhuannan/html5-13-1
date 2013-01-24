@@ -1,0 +1,72 @@
+	
+	.r_epa-all{
+		width:100%
+		padding-top:13px;
+	}
+	.r_epa-top{
+		margin:0 auto;
+		width:975px;
+	}
+	.r_epa-con{
+		width:977px;
+		margin:0 auto 33px;
+		border:1px solid #e3e3e3;
+		border-top:none;
+		padding:18px 0;
+		background-color:#f7fafb;
+	}
+	.r_epa-c-h3{
+		font-size:16px;
+		color:#FC9C64;
+		margin-bottom:5px
+	}
+	.r_epa-c-P{
+		font-size:14px;
+		text-indent:40px;
+		line-height:28px;
+		margin-bottom:28px;
+		color: #5D5D5D;
+	}
+	.r_epa-step-a{
+		float:left;
+		width:93px;
+		height: 40px;
+		background:url(../images/r_epa-step.gif) no-repeat 0 0;
+		text-align: center;
+	}
+	.r_epa-step-a span{
+		width:92px;
+		height:40px;
+		color: #F9F9F9;
+		font-size:14px;
+		line-height:40px;
+	}
+	.r_epa-step{
+		background-color:#ffffff;
+		font-size:14px;
+		line-height:28px;
+		color:#5D5D5D;
+		width:907px;
+		background:url(../images/r_epa-xia.gif) 38px bottom no-repeat;
+		overflow: hidden;
+		margin:0 33px 23px;
+
+	}
+	.r_epa-step .circle{
+		width:783px;
+		background-color:#ffffff;
+		float: left;
+		margin-left:30px;
+		_zoom:1;
+	}
+	.r_epa-step .circle-con{
+		background-color:#ffffff;
+		padding: 10px 15px 10px;
+	}
+	.r_epa-step .circle-tm{
+		background-color:#ffffff;
+		
+	}
+	.r_epa-step .circle-bm{
+		background-color:#ffffff;
+	}

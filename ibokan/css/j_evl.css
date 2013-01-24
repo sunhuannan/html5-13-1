@@ -1,0 +1,94 @@
+/*头部与布局*/
+#j_evl .middle{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+}
+#j_evl .main-top{
+	float:left;
+	width:702px;
+	height:27px;
+}
+#j_evl .circle{
+	float:left;
+	width:702px;
+	margin-top:6px;
+}
+#j_evl .midRig{
+	float:right;
+	width:260px;
+	height:355px;
+	border:1px solid #e3e3e3;
+}
+#j_evl .midRig-bot{
+	float:right;
+	width:260px;
+	height:615px;
+	border:1px solid #e3e3e3;
+	margin-top:16px;
+}
+/*左侧列表*/
+#j_evl .midLef-one{
+	width:700px;
+	height:174px;
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:8px;
+	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
+}
+#j_evl .midLef-one.special{
+	padding-top:14px;
+}
+#j_evl .midLef-one.exc{
+	background:none;
+}
+#j_evl .circle-con a{
+	float:left;
+	line-height:19px;
+}
+#j_evl .circle-con img{
+	margin-left:20px;
+}
+#j_evl .circle-con h3{
+	float:left;
+	font-size:14px;
+	color:#fe975b;
+	padding-left:12px;
+	width:320px;
+}
+#j_evl .circle-con span{
+	float:left;
+	margin-left:12px;
+	font-size:12px;
+	line-height:19px;
+	color:#a2a2a2;
+}
+#j_evl .circle-con p{
+	float:left;
+	width:340px;
+	margin-left:12px;
+	font-size:12px;
+	line-height:20px;
+	color:#a2a2a2;
+}
+#j_evl .more{
+	margin-left:12px;
+	color:#a00000;
+	text-decoration:underline;
+	font-size:10px;
+}
+#j_evl .pnPage span{
+	float:right;
+	margin-left:0px;
+}
+/*左侧列表无背景设置*/
+#j_evl .middle .circle-tm{
+	background-color:#fff;
+}
+#j_evl .middle .circle-con{
+	background-color:#fff;
+}
+#j_evl .middle .circle-bm{
+	background-color:#fff;
+}
