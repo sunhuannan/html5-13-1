@@ -1,0 +1,100 @@
+/*头部通用*/
+#r_pa .main-top{
+	width:978px;
+	height:27px;
+	background-color:#e3e3e3;
+	margin:0 auto;
+}
+/*内容*/
+#r_pa h4{
+	font-size:14px;
+}
+#r_pa p{
+	font-size:13px;
+}
+#r_pa .circle{
+	width:980px;
+	margin:0 auto;
+	margin-top:6px;
+	margin-bottom:28px;
+}
+#r_pa .cuteMath{
+	padding-top:16px;
+	margin-left:21px;
+	overflow:hidden;
+	font-size:14px;
+	zoom:1;
+}
+#r_pa .cuteMath img{
+	float:left;
+}
+#r_pa .cuteMath h4{
+	width:830px;
+	float:left;
+	margin:5px 0px 0px 22px;
+	color:#fca775;
+}
+#r_pa .cuteMath span{
+	float:left;
+	margin-left:42px;
+	color:#8b8c8c;
+}
+#r_pa .cuteMath .study{
+	margin-left:22px;
+}
+#r_pa .mid-con{
+	margin:16px 0px 0px 121px;
+	width:838px;
+	color:#6e6e6e;
+}
+#r_pa .preCom{
+	margin-top:40px;
+	line-height:26px;
+}
+#r_pa .preCom p{
+	font-size:12px;
+}
+#r_pa .car-bg-c{
+	background:url("../images/th_ca-car-bg-c.gif") 0 0 repeat-x;
+}
+#r_pa .car-bg-l{
+	background:url("../images/th_ca-car-bg-l.gif") 0 0 no-repeat;
+}
+#r_pa .car-bg-r{
+	background:url("../images/th_ca-car-bg-r.gif") right 0 no-repeat;
+	height:506px;
+}
+#r_pa .proSna{
+	margin-top:44px;
+}
+#r_pa .programme{
+	padding-top:14px;
+	margin-top:13px;
+	overflow:hidden;
+	position:relative;
+}
+#r_pa .programme img{
+	float:left;
+	margin-left:10px;
+}
+#r_pa .programme a{
+	position:absolute;
+	left:0;
+	top:234px;
+	color:red;
+	background:url("../images/th_ca-left.gif") 0 0 no-repeat;
+	height:38px;
+	width:27px;
+}
+#r_pa .programme a.right{
+	position:absolute;
+	left:802px;
+	top:234px;
+	color:red;
+	background:url("../images/th_ca-right.gif") 0 0 no-repeat;
+	height:38px;
+	width:27px;
+}
+#r_pa .arcNav-r{
+	width:96px;
+}

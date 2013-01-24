@@ -1,0 +1,71 @@
+html¥˙¬Î£∫
+------------------------------------------------------------------------
+<div class='et-rc'>
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>‘⁄œﬂøŒ≥Ã</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../teacher/te_ol.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class='circle-con'>
+		<div class='carimg'><a href='../teacher/te_oa.html'><img src='../images/car.gif' alt='‘⁄œﬂøŒ≥Ã' /></a></div>
+		<div class='coursedetail'>
+			<ul>
+				<li class='course1'>
+					<h4>1. ”∆µøŒ≥Ã###<h4>
+					<p>ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹ΩÈ…‹</p>
+				</li>
+				<li class='course2'>2. ”∆µøŒ≥Ã###</li>
+				<li class='course3'>3. ”∆µøŒ≥Ã###</li>
+			</ul>
+		</div>
+	</div>
+	<div class='bottom'>
+		<div class="circle-bm">					
+			<div class="circle-bl">				
+				<div class="circle-br"></div>	
+			</div>
+		</div>
+	</div>
+</div>
+-------------------------------------------------------------------
+css¥˙¬Î£∫
+------------
+.et-rc{
+	width:260px;
+}
+ .carimg{
+	height:171px;
+	text-align:center;
+	padding-top:14px;
+}
+ .coursedetail li{
+	width:230px;
+	margin:0 auto;
+	overflow:hidden;
+}
+ .coursedetail li {
+	font-size:14px;
+	color:#6e6e6e;
+}
+ .coursedetail li p{
+	font-size:12px;
+}
+ .coursedetail .course1{
+	height:76px;
+	background:url('../images/j_eml-dot.gif') 0 bottom repeat-x;
+}
+ .coursedetail .course2{
+	height:35px;
+	background:url('../images/j_eml-dot.gif') 0 bottom repeat-x;
+}
+ .coursedetail .course3{
+	height:35px;
+}
+ .titleBar h2{
+	font-weight:bold;
+	font-size:12px;
+}

@@ -1,0 +1,63 @@
+html代码：
+--------------------------------------------------------------------------------------------------
+<div class='ws-rc'>
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>就业学员</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../job/j_eml.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class='circle-con'>
+		<div class='pic clearfix'>
+			<a href='../job/j_ema.html' class='big'><img src='../images/te_liclassmate1.jpg' alt="就业学员"/></a>
+			<a href='../job/j_ema.html'><img src='../images/te_liclassmate2.jpg' alt="就业学员" /></a>
+			<a href='../job/j_ema.html'><img src='../images/te_liclassmate2.jpg'  alt="就业学员" /></a>
+			<a href='../job/j_ema.html' class='footer'><img src='../images/te_liclassmate2.jpg' alt="就业学员" /></a>
+			<a href='../job/j_ema.html' class='footer'><img src='../images/te_liclassmate2.jpg' alt="就业学员" /></a>
+		</div>
+		<div class="pnPage clearfix">
+			<span class="pnPageDown"></span>
+			<span class="pnPageUp"></span>
+			<span class="pnPageNumR">10</span>
+			<span>/</span>
+			<span class="pnPageNumL">1</span>
+		</div>
+	</div>
+	<div class='bottom'>
+		<div class="circle-bm">					
+			<div class="circle-bl">				
+				<div class="circle-br"></div>	
+			</div>
+		</div>
+	</div>
+</div>
+----------------------------------------------------------------------------------------------------
+css代码：
+-----------------
+.ws-rc {
+	width:260px;
+}
+.ws-rc .pic{
+	overflow:hidden;
+}
+.ws-rc .pic {
+	padding: 8px 0 0 8px;
+}
+.ws-rc .pic a{
+	display: inline;
+	float:left;
+	margin-left:6px;
+}
+.ws-rc .pic a img {
+	float: left;
+}
+ .ws-rc .pic .big{
+	margin-left: 0;
+}
+
+ .ws-rc .pic .footer{
+	margin-top: 4px;
+}

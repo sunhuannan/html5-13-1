@@ -1,0 +1,135 @@
+/* 名称:在线报名by陈晓钰
+ * 开发时间：2013年1月22日11:59:01
+ * 描述：在线报名表单
+ */
+.sign-main{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+ }
+.sign-content{
+	width:702px;
+	margin-bottom:25px;
+	float:left;
+}
+.sign-form{
+	width:702px;
+	margin-top:6px;
+}
+.cxy-table{
+	font-size:14px;
+	color:#737373;
+	width:665px;
+	height:582px;
+	margin:0 auto;
+}
+.sign-bg{
+	width:100%;
+}
+.sign-form td{
+	height:45px;
+}
+.sign-form select{
+	color:#cfcfcf;
+}
+.sign-td1{
+	width:217px;
+}
+.sign-td2{
+	width:214px;
+}
+.sign-td3{
+	width:234px;
+}
+.sign-form span{
+	color:#feb68c;
+}
+.sign-text,.sign-sel{
+	height:22px;
+	border:1px solid #cbcbcb;
+}
+.sign-sel{
+	width:146px;
+	margin-left:-1px;
+	display:inline;
+}
+.sign-text{
+	width:146px;
+	margin-right:4px;
+	display:inline;
+}
+.sign-sel1{
+	width:67px;
+	height:22px;
+}
+.sign-text1{
+	width:70px;
+	height:22px;
+	border:1px solid #cbcbcb;
+}
+.sign-cb{
+	width:16px;
+	height:23px;
+	margin-right:10px;
+	vertical-align:middle;
+	display:inline;
+	background:url(../images/sign-oc.gif) no-repeat;
+}
+.sign-ta{
+	width:645px;
+	height:80px; 
+	border:1px solid #cbcbcb;
+}
+.sign-choice1,.sign-choice2{
+	width:84px;
+	height:25px;
+	text-align:center;
+	color:#feb68c;
+	background:url(../images/online-btn.gif) no-repeat;
+}
+.sign-form a:hover{
+	text-decoration:none;
+}
+.sign-choice1{
+	margin-left:205px;
+}
+.sign-choice2{
+	margin-left:85px;
+}
+.sign-form a:hover .sign-choice1{
+	background:url(../images/online-btn1.gif) no-repeat;
+	color:white;
+}
+.sign-form a:hover .sign-choice2{
+	background:url(../images/online-btn1.gif) no-repeat;
+	color:white;
+}
+#sign .circle-con{
+	background-color:#ffffff;
+}
+#sign .circle-bm{
+	background-color:#ffffff;
+}
+#sign .circle-tm{
+	background-color:#ffffff;
+}
+.sign-div1{
+	height:178px;
+	width:260px;
+	background-color:red;
+	margin-bottom:15px;
+	float:right;
+}
+.sign-div2{
+	height:212px;
+	width:260px;
+	margin-bottom:15px;
+	background-color:red;
+	float:right;
+}
+.sign-div3{
+	height:202px;
+	width:260px;
+	background-color:red;
+	float:right;
+}

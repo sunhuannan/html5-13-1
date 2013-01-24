@@ -1,0 +1,42 @@
+#c_el .c_el-content{
+	width:978px;
+	margin:0 auto;
+
+}
+#c_el .c_el-contentLeft{
+	width:700px;
+	margin-right:10px;
+	float:left;
+	display:inline;
+}
+#c_el .c_el-leftTitle-m{
+	margin-bottom:5px;
+}
+#c_el .c_el-contentRight{
+	width:262px;
+	float:right;
+}
+#c_el .c_el-p1{
+	width:497px;
+	height:337px;
+	float:left;
+	margin:15px 0 0 15px;
+	display:inline;
+}
+#c_el .c_el-p2{
+	width:155px;
+	height:105px;
+	float:left;
+	margin:15px 0 0 15px;
+	display:inline;
+}
+#c_el .c_el-p3{
+	width:155px;
+	height:105px;
+	float:left;
+	margin:15px 0 0 15px;
+	display:inline;
+}
+#c_el .c_el-margin{
+	margin-top:15px;
+}

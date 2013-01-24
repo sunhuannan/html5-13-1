@@ -1,0 +1,25 @@
+标题栏组件：
+Code:
+*****这是标题栏组件和圆角组件一起使用时的代码。*****
+
+<!-- 这里开始是圆角组件和标题栏组件的代码 -->
+<div class="circle">
+	<!-- 这里是涉及标题栏组件的代码 -->					
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>经典项目</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="#" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>	
+	<!-- 到这里标题栏组件代码结束 -->
+	<div class="circle-con">这里放置内容</div>			
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>
+<!-- 这里开始是圆角组件和标题栏组件的代码结束 -->

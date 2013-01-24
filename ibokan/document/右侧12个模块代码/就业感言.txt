@@ -1,0 +1,81 @@
+html代码：
+-------------------------------------------------------------------------------------------------------
+<div class='wt-rc'>
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>就业感言</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../job/j_al.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>
+	<div class='circle-con'>
+		<div class='pic clearfix'>
+			<a href='../job/j_aa.html' class='left'><img src='../images/left.gif' /></a>
+			<a href='../job/j_aa.html' class='middle'><img src='../images/girl.gif' /></a>
+			<a href='../job/j_aa.html' class='right'><img src='../images/right.gif' /></a>
+		</div>
+		<div class='content'>
+			<h4>
+				<span>马同学</span>
+				<span>博看文思iPhone开发19班</span>
+			</h4>
+			<p>感言：很多大学毕业生都在就业问题上处于一种迷茫的状态，2010年的我也是...</p>
+		</div>
+	</div>
+	<div class='bottom'>
+		<div class="circle-bm">					
+			<div class="circle-bl">				
+				<div class="circle-br"></div>	
+			</div>
+		</div>
+	</div>
+</div>
+----------------------------------------------------------------------------------------------------------
+css代码：             
+----------------------
+.wt-rc{
+	width:260px;
+}
+.wt-rc .circle-con{
+	padding-bottom:15px;
+}
+.wt-rc .left{
+	float:left;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.wt-rc .middle{
+	float:left;
+	width:168px;
+	height:118px;
+	margin:0 auto;
+	margin-top:13px;
+	margin-left:19px;
+
+}
+.wt-rc .right{
+	float:right;
+	width:26px;
+	height:38px;
+	margin-top:61px;
+}
+.wt-rc .pic{
+	overflow:hidden;
+}
+.wt-rc .content h4{
+	font-size:14px;
+	text-align:center;
+	color:#797979;
+	overflow:hidden;
+}
+.wt-rc .content p{
+	font-size:14px;
+	width:221px;
+	margin:0 auto;
+	line-height:20px;
+	color:#797979;
+	overflow:hidden;
+}

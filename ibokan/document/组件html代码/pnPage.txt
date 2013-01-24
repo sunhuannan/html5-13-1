@@ -1,0 +1,9 @@
+标题栏组件：
+Code:
+<div class="pnPage clearfix">
+	<span class="pnPageDown"></span>
+	<span class="pnPageUp"></span>
+	<span class="pnPageNumR">10</span>
+	<span>/</span>
+	<span class="pnPageNumL">1</span>
+</div>

@@ -1,0 +1,93 @@
+<!-- 公司项目by陈晓钰 -->
+/*==================================html代码==========================================*/
+<div class="comP_rc">
+	<div class="titleBar">		
+		<div class="titleBar-l"> 
+			<div class="titleBar-r clearfix">
+				<h2><strong>公司项目</strong></h2> 
+				<span class="titleBar-icon"></span> 
+				<a href="../rdc/r_pl.html" class="titleBar-more"></a>
+			</div>
+		</div>
+	</div>	
+	<div class="circle-con">
+		<div class="c_dl-div">
+			<a href="../rdc/r_pa.html"><img src="../images/th_ca-worm.gif" alt="pic" class="c_dl-img" /></a>
+			<span class="c_dl-word">麦咨达</span>
+			<span class="c_dl-word">分类：应用（条码扫描）</span>
+			<span class="c_dl-word">发布时间：2010年4月</span>
+			<span class="c_dl-word">@2011博看文思</span>
+		</div>
+		<div class="c_dl-div">
+			<a href="../rdc/r_pa.html"><img src="../images/th_ca-worm.gif" alt="pic" class="c_dl-img" /></a>
+			<span class="c_dl-word">麦咨达</span>
+			<span class="c_dl-word">分类：应用（条码扫描）</span>
+			<span class="c_dl-word">发布时间：2010年4月</span>
+			<span class="c_dl-word">@2011博看文思</span>
+		</div>
+		<div class="c_dl-cl">
+			<a href="../rdc/r_pa.html"><img src="../images/th_ca-worm.gif" alt="pic" class="c_dl-img" /></a>
+			<span class="c_dl-word">麦咨达</span>
+			<span class="c_dl-word">分类：应用（条码扫描）</span>
+			<span class="c_dl-word">发布时间：2010年4月</span>
+			<span class="c_dl-word">@2011博看文思</span>
+		</div>
+		<div class="pnPage clearfix">
+			<span class="pnPageDown"></span>
+			<span class="pnPageUp"></span>
+			<span class="pnPageNumR">10</span>
+			<span>/</span>
+			<span class="pnPageNumL">1</span>
+		</div>
+	</div>
+	<div class="circle-bm">					
+		<div class="circle-bl">				
+			<div class="circle-br"></div>	
+		</div>
+	</div>
+</div>
+/*==================================css代码==========================================*/
+.comP_rc {
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.comP_rc .circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.c_dl-div,.c_dl-cl{
+	width:258px;
+	height:94px;
+	padding-top:17px;
+	border-bottom:1px solid #e3e3e3;
+}
+.circle-con .c_dl-cl{
+	border:none;
+}
+.c_dl-comP_rc .pnPage{
+	margin-top:23px;
+}
+.c_dl-img{
+	float:left;
+	width:80px;
+	margin-left:19px
+}
+.c_dl-word{
+	float:left;
+	width:135px;
+	height:19px;
+	margin-left:15px;
+	color:#989898;
+	overflow:hidden;
+}
+/*==================================css代码完毕==========================================*/
+//注意：可以和学生项目，项目展示一起使用，只需把h2标签里面的标题名称改变就可以。这段代码是3段，有些是4或者5段，只需把以下这段复制就行，
+<div class="c_dl-div">
+	<a href="#"><img src="../images/th_ca-worm.gif" alt="pic" class="c_dl-img" /></a>
+	<span class="c_dl-word">麦咨达</span>
+	<span class="c_dl-word">分类：应用（条码扫描）</span>
+	<span class="c_dl-word">发布时间：2010年4月</span>
+	<span class="c_dl-word">@2011博看文思</span>
+</div>
+
+

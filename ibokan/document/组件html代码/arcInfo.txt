@@ -1,0 +1,44 @@
+标题栏组件：
+Code:
+<div class="arcInfo clearfix">
+	<div class="arcInfo-l ">
+		<h3>栏目资讯：</h3>
+		<ul>
+			<li>
+				<a href="#">
+					<span>玛雅人预言</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span>2012年12月21日2012年12月21日世界末日</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span>12月20日是什么星座</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="arcInfo-r">
+		<h3>最新资讯：</h3>
+		<ul>
+			<li>
+				<a href="#">
+					<span>玛雅人预言</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span>2012年12月21日2012年12月21日世界末日</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span>12月20日是什么星座</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

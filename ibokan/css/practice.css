@@ -1,0 +1,44 @@
+#practice .practice-whole{
+	width:978px;
+	margin:0 auto;
+}
+#practice .practice-s{
+	width:978px;
+	overflow:hidden;
+}
+#practice .practice-sLs{
+	width:702px;border:1px solid red;height:178px;
+	float:left;
+}
+#practice .practice-sRs{
+	width:260px;
+	float:right;border:1px solid red;height:178px;
+}
+#practice .practice-sLx{
+	width:702px;border:1px solid red;height:429px;
+	float:left;
+	margin-top:15px;
+}
+#practice .practice-sRc{
+	float:right;width:260px;height:212px;border:1px solid red;
+	margin-top:15px;
+}
+#practice .practice-sRx{
+	float:right;width:260px;height:202px;border:1px solid red;
+	margin-top:15px;
+}
+#practice .practice-x{
+	width:978px;
+	overflow:hidden;
+	margin:15px 0 30px 0;
+}
+#practice .practice-xL{
+	width:702px;
+	height:492px;
+	float:left;border:1px solid red;
+}
+#practice .practice-xR{
+	width:260px;
+	height:492px;
+	float:right;border:1px solid red;
+}

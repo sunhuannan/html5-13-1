@@ -1,0 +1,92 @@
+/*头部与布局*/
+#te_il .middle{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:28px;
+}
+#te_il .main-top{
+	float:left;
+	width:702px;
+	height:27px;
+}
+#te_il .midRig{
+	float:right;
+	width:260px;
+	height:382px;
+	border:1px solid #e3e3e3;
+}
+#te_il .circle{
+	float:left;
+	width:702px;
+	margin-top:6px;
+}
+#te_il .circle-con{
+	height:854px;
+}
+#te_il .midCon{
+	float:right;
+	width:260px;
+	height:202px;
+	border:1px solid #e3e3e3;
+	margin-top:15px;
+}
+#te_il .midBot{
+	float:right;
+	width:260px;
+	height:272px;
+	border:1px solid #e3e3e3;
+	margin-top:15px;
+}
+/*左侧列表内容*/
+#te_il .cuteMath{
+	padding-top:15px;
+	overflow:hidden;
+	font-size:14px;
+	height:148px;
+	width:700px;
+	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
+}
+#te_il .cuteMath a.teacher{
+	float:left;
+	margin-left:21px;
+}
+#te_il .cuteMath a.name{
+	width:400px;
+	float:left;
+	margin:5px 0px 0px 22px;
+	color:#fca775;
+	line-height:20px;
+	font-size:14px;
+	text-decoration:none;
+}
+#te_il .cuteMath h4.teacher{
+	margin-top:0px;
+}
+#te_il .cuteMath p{
+	color:#797979;
+	font-size:12px;
+	margin-left:22px;
+	width:480px;
+	float:left;	
+}
+#te_il .cuteMath a{
+	color:#a00000;
+	text-decoration:underline;
+	float:left;
+	margin-left:21px;
+	font-size:11px;
+}
+#te_il .cuteMath.exc{
+	background:none;
+}
+/*左侧列表无背景设置*/
+#te_il .middle .circle-tm{
+	background-color:#fff;
+}
+#te_il .middle .circle-con{
+	background-color:#fff;
+}
+#te_il .middle .circle-bm{
+	background-color:#fff;
+}

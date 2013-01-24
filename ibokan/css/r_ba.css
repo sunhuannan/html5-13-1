@@ -1,0 +1,137 @@
+/*头部通用*/
+#r_ba .grey{
+	background:url("../images/Grey-top.gif") 0 0 repeat-x;
+	height:58px;
+	width:1200px;
+	margin:0 auto;
+}
+#r_ba .main-top{
+	width:980px;
+	height:27px;
+	background-color:#e3e3e3;
+	margin:13px auto 0px;
+}
+/*内容*/
+#r_ba .circle{
+	width:980px;
+	margin:0 auto;
+	margin-top:6px;
+	margin-bottom:28px;
+}
+#r_ba .circle p{
+	font-size:14px;
+	text-indent:24px;
+	color:#535351;
+}
+#r_ba .devSer{
+	width:912px;
+	margin:0 auto;
+	padding-top:16px;
+}
+#r_ba .devSer h3{
+	font-size:16px;
+	color:#fc9c64;
+}
+/*iphone、ipad开发*/
+#r_ba h4{
+	font-size:14px;
+	color:#fc9c64;
+}
+#r_ba .ipDev{
+	width:910px;
+	margin:0 auto;
+	margin-top:36px;
+}
+#r_ba .ipDev h4{
+	background:url("../images/r_ba-ipad.gif") 0 0 no-repeat;
+	text-align:center;
+	line-height:26px;
+	width:126px;
+	padding-left:35px;
+}
+/*相关项目*/
+#r_ba .someItem{
+	width:910px;
+	margin:0 auto;
+	margin-top:14px;
+	overflow:hidden;
+}
+#r_ba .someItem h4{
+	float:left;
+}
+#r_ba .someItem a{
+	float:right;
+	color:#b53e3e;
+	text-decoration:underline;
+}
+#r_ba .someItem-clause{
+	width:910px;
+	margin:0 auto;
+	margin-top:16px;
+}
+#r_ba .someItem-clause a{
+	width:80px;
+	float:left;
+	margin-top:20px;
+	margin-left:40px;
+	text-decoration:none;
+}
+#r_ba .someItem-clause a span{
+	padding-left:20px;
+	color:#5b5b5b;	
+}
+#r_ba .someItem-clause a.worm{
+	margin-left:28px;
+}
+#r_ba .someItem-clause a.direction{
+	width:27px;
+	height:38px;
+	background:url("../images/r_ba-no1-left.gif") 0 0 no-repeat;
+	margin-top:46px;
+	margin-left:0px;
+}
+#r_ba .someItem-clause a.direction-right{
+	width:27px;
+	height:38px;
+	background:url("../images/r_ba-no1-right.gif") 0 0 no-repeat;
+	margin-top:44px;
+	margin-left:28px;
+}
+#r_ba .someItem-clause-c{
+	background:url("../images/r_ba-con-bg-c.gif") 0 0 repeat-x;
+}
+#r_ba .someItem-clause-l{
+	background:url("../images/r_ba-con-bg-l.gif") 0 0 no-repeat;
+}
+#r_ba .someItem-clause-r{
+	background:url("../images/r_ba-con-bg-r.gif") right 0 no-repeat;
+	height:138px;
+}
+/*Android开发*/
+#r_ba .team{
+	width:912px;
+	margin:0 auto;
+	margin-top:35px;
+}
+#r_ba .team h4{
+	background:url("../images/r_ba-android.gif") 0 0 no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+	padding-left:10px;
+}
+/*web开发*/
+#r_ba .exp{
+	width:914px;
+	margin:0 auto;
+	margin-top:46px;
+}
+#r_ba .exp h4{
+	background:url("../images/r_ba-web.gif") 0 0 no-repeat;
+	text-align:center;
+	line-height:24px;
+	width:126px;
+}
+#r_ba .arcInfo{
+	margin-top:30px;
+}

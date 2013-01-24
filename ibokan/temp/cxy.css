@@ -1,0 +1,163 @@
+/*公司项目*/
+.companyProject{
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.c_dl-div,.c_dl-cl{
+	width:258px;
+	height:94px;
+	padding-top:17px;
+	border-bottom:1px solid #e3e3e3;
+}
+.circle-con .c_dl-cl{
+	border:none;
+}
+.c_dl-companyProject .pnPage{
+	margin-top:23px;
+}
+.c_dl-img{
+	float:left;
+	width:80px;
+	margin-left:19px
+}
+.c_dl-word{
+	float:left;
+	width:135px;
+	height:19px;
+	margin-left:15px;
+	color:#989898;
+	overflow:hidden;
+}
+/*培训答疑*/
+.th_pl-onlineAnswer{
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.circle-con{
+	width:258px;
+	background:#ffffff;
+	padding-top:12px;
+}
+.th_pl-words{
+	width:246px;
+	height:36px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(../images/th_pl-bg1.gif) 0px 0px no-repeat;
+}
+.th_pl-words strong{
+	float:left;
+	width:37px;
+	line-height:36px;
+	text-align:center;
+	font-weight:bold;
+	color:#646464;
+}
+.th_pl-words span{
+	float:left;
+	width:205px;
+	line-height:36px;
+	text-align:center;
+	color:#bababa;
+}
+.th_pl-it{
+	width:248px;
+	height:156px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(../images/th_pl-bg.gif) 0px 0px no-repeat;
+}
+.th_pl-it p{
+	width:217px;
+	height:100px;
+	line-height:22px;
+	margin:0 auto;
+	margin-top:30px;
+	color:#c7c7c7;
+}
+.th_pl-onlineAnswer .pnPage{
+	margin-top:15px;
+}
+/*企业反馈*/
+.r_pl-companyData{
+	width:260px;
+}
+.titleBar-icon{ display: none; }
+.circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.cxy-bg{
+	float:left;
+	width:44px;
+	height:32px;
+	margin-top:14px;
+	margin-left:15px;
+	overflow:hidden;
+}
+.cxy-word{
+	float:left;
+	width:183px;
+	height:30px;
+	margin-top:16px;
+	margin-left:12px;
+	font-size:14px;
+	color:#b7b7b7;
+	overflow:hidden;
+}
+.cxy-charter{
+	width:186px;
+	height:59px;
+	overflow:hidden;
+	color:#989898;
+	padding-top:2px;
+	margin-left:70px;
+}
+.cxy-link{
+	display:block;
+	margin-left:70px;
+	width:186px;
+	color:#a00000;
+}
+/*最新开班*/
+.newOpen{
+	width:260px;
+}
+.titleBar-icon { display: none; }
+.circle-con{
+	width:258px;
+	background:#ffffff;
+}
+.newOpen-ul{
+	width:235px;
+	height:140px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.newOpen-li,.newOpen-last{
+	float:left;
+	width:235px;
+	line-height:35px;
+	color:#6e6e6e;
+	overflow:hidden;
+	border-bottom:1px dotted #a8a6a6;
+}
+.newOpen-last{
+	border:none;
+}
+.newOpen-span{
+	float:left;
+	width:130px;
+	height:35px;
+	overflow:hidden;
+}
+.newOpen-span1{
+	float:right;
+	height:35px;
+	width:45px;
+	overflow:hidden;
+}
